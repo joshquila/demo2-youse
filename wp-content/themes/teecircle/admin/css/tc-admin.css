@@ -1,0 +1,20 @@
+#tc-theme-settings {
+	max-width: 840px;
+	background: #fff;	
+	margin-top: 10px;
+}
+.tc-settings-tab table{
+	margin-left: 10px !important;
+}
+#submit {
+	margin-left: 10px !important;
+}
+.tc-settings-tab h3 {
+	cursor: default;
+	background-color: #f1f1f1;
+	border-bottom: 1px solid #ddd;
+	font-size: 14px;
+	padding: 8px 12px;
+	margin: 0;
+	line-height: 1.4;	
+}	

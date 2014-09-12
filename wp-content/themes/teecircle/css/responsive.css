@@ -1,0 +1,153 @@
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 767px) {
+body{min-width:0; max-width:100%;}
+.wrapper{margin:0 auto; /*overflow-x:hidden;*/}
+.row{max-width:none; width:98%;}
+.wrapper .header .menu, .headerInner .menu{display:none;}
+/*.mobileMenu{display: inline-block; float:right;}*/
+.mobileMenu{height: auto; z-index:98; padding:0; margin:0 auto; width:98%;}
+.mobile_nav{display: inline-block;	cursor: pointer; color:#fff; margin:0; height:26px;}
+.mobileMenu .mmnu{position: absolute;z-index: 99;background:#ccc;top:55px;left:0;width:99.7%; margin:7px auto 0 auto;border:1px solid #fff;}
+.mobileMenu .mmnu li{display:block; width:100%; border-top:1px solid #dddddd; text-align:center;}
+.mobileMenu .mmnu li:first-child{border-top:0;}
+.mobileMenu .mmnu li a{font:17px Arial, Helvetica, sans-serif; color:#333; display:inline-block; transition:all 0.5s ease-in-out; display:block; padding:10px 0;}
+.mobileMenu .mmnu li:hover a{background:#333; color:#f2f2f2;}
+
+.wrapper .header .logo{ width:auto; margin:0; float:none; display: inline-block;}
+.wrapper .header .othSec{ width:auto; margin:20px; float:none; text-align:center;}
+
+.wrapper .testiHldr .testi{ width:289px; margin:0 auto; padding:0;}
+.wrapper .testiHldr .testi .allTesti li{ margin-left:0;}
+.wrapper .header .bnrPrt{ width:98%; margin:0 1%; text-align:center;}
+.wrapper .header .bnrPrt a{ width:40%; margin:0; padding:5px 10px!important; float:none!important;}
+.wrapper .mainBdy .allPro ul li:nth-child(2n+1) .proHldr, .wrapper .mainBdy .allPro ul li:nth-child(2n+1) .proDtls, .wrapper .mainBdy .allPro ul li:nth-child(2n) .proHldr, .wrapper .mainBdy .allPro ul li:nth-child(2n) .proDtls{ width:98%; float:none; margin:0 1%; text-align:center;}
+
+.footer .ftrLft{ width:95%; float:none; margin:0 0 20px 17px;}
+.footer .ftrRht{ width:100%; float:none;}
+.wrapper .btmBnr .btmBnTxt{ width:95%; margin:0 auto;}
+
+.wrapper .header{background:url(../images/mbhdBg.jpg) no-repeat center top #383836;}
+.wrapper .header .bnrPrt h1{ margin-top:50px;}
+
+/*================================== runa 11062014 ===================================*/
+
+.productdetailsde{ width:95% !important; margin:0 auto;}
+.hentry, #dv_front #bg_img { width:100%;}
+.wrapper .mainBdy .dsgnCen{ width:99%; padding:25px 0;}
+
+.productdetailsde .images, .productdetailsde .entry-summary, .productdetailsde .summary{ float:none; margin:0 auto; width:100%;}
+.productdetailsde .images img{ max-width:100%; height:auto;}
+.productdetailsde .variations_form .variations tr td select{ width:100%;}
+.single_add_to_cart_button{ width:auto; padding:0 30px; margin-left:30px;}
+.footer .ftrLft{ margin:5px;}
+
+/*================================== runa 11062014 end ===================================*/
+
+/*------------------------------Product*/
+.popsOuter .popmanCnt{width:98%; height:auto; margin:0 auto; left:0;}
+.popsOuter .popmanCnt .popBdy .tophd li.sty{width:31%;}
+.popsOuter .popmanCnt .popBdy .selSec li ul.bdyCnt li.sty{width:28%; margin-right:3%;}
+.popsOuter .popmanCnt .popBdy .selSec li ul.bdyCnt li.sty select{width:100%;}
+.popsOuter .popmanCnt .popBdy .selSec li ul.bdyCnt li.selCol{width:69px;}
+.grnLnk{margin-top:20px;}
+.single_add_to_cart_button.ends{width:90%;}
+
+/*-----------------------------CheckOut*/
+#customer_details .col-1, #customer_details .col-2{width:100%; margin:0 auto; float:none;}
+#customer_details .col-1 label{vertical-align:top; margin-top:4px;}
+.woocommerce{padding:10px 0;}
+#content .entry-content{display:block; padding:0 !important;}
+
+/*----------------Place Order*/
+.content-area .col-1 .form-row label, .content-area .col-2 .form-row label{width:42%;}
+
+/*---------------------Login popup*/
+.login{left:0; top:10%; width:96%; margin:0 auto; padding:15px 5px;}
+#logch .socl li{margin-bottom:8px;}
+.wrapper .mainBdy{width:98%;}
+.wrapper .mainBdy .stpBar .secLft ul.prg li{margin:5px 0;}
+.wrapper .mainBdy .stpBar .secLft ul.prg li:first-child{margin:0;}
+.wrapper .mainBdy .stpBar .secLft{width:100%; float:none;}
+
+/*--------------------------Cart*/
+.shop_table.cart{display:block;}
+.shop_table.cart thead{width:100%; display:block;}
+.shop_table.cart thead tr{width:100%; display:block;}
+.shop_table.cart thead tr th{padding: 9px 3px; text-align:right;}
+.shop_table.cart thead tr th.product-name, .shop_table.cart thead tr th.product-quantity{width:30%;}
+.shop_table.cart thead tr th.product-price, .shop_table.cart thead tr th.product-subtotal{width:20%;}
+.shop_table.cart thead tr th.product-thumbnail{display:none;}
+.shop_table.cart thead tr th.product-remove{width:2%;}
+
+.shop_table.cart tbody .cart_table_item td{padding:6px 0;}
+.shop_table.cart tbody tr td .cmnBtn{margin:5px 0;}
+.woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totalss{width:98% !important; float:none !important; text-align:center !important;}
+.woocommerce table.cart .product-thumbnail, .woocommerce #content table.cart .product-thumbnail, .woocommerce-page table.cart .product-thumbnail, .woocommerce-page #content table.cart .product-thumbnail{min-width:0 !important;}
+
+}
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 767px) 
+and (orientation : landscape) {
+	
+}
+
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) {
+body{min-width:0; max-width:100%;}
+.wrapper{margin:0 auto; overflow-x:hidden;}
+.row{max-width:none;}
+.wrapper .header .menu{display:inline-block;}
+.mobileMenu{display: none;}
+.wrapper .header .logo, .wrapper .header .menu{ width:auto; margin-right:20px;}
+.wrapper .header .othSec{ width:auto; float:none; margin:0; text-align:left;}
+.wrapper .mainBdy .allPro ul li{ width:98%; padding:0 1%;}
+.wrapper .mainBdy .allPro ul li:nth-child(odd) .proHldr, .wrapper .mainBdy .allPro ul li:nth-child(even) .proHldr{ width:40%; margin:0 2% 0 0; display:inline-block;}
+.wrapper .mainBdy .allPro ul li:nth-child(odd) .proDtls, .wrapper .mainBdy .allPro ul li:nth-child(even) .proDtls{ width:50%; margin:0; display:inline-block;}
+.footer{ width:98%; margin:0 1%;}
+.footer .ftrLft{ width:35%; float:none; margin:0; display:inline-block;}
+.footer .ftrRht{ width:60%; float:none; display:inline-block;}
+.wrapper .header .bnrPrt{ margin:0 1%;}
+
+/*---------------------------Product*/
+/*.productdetailsde .images{float:none;}
+.wrapper .mainBdy .dsgnCen{float:none; margin:0 auto;}
+.productdetailsde .summary{margin:0 auto;}
+.productdetailsde .entry-summary{float:none;}*/
+.productdetailsde .images{width:48%;}
+.wrapper .mainBdy .dsgnCen{width:84%;}
+.wrapper .mainBdy .dsgnCen #dv_front{width:100%;}
+.wrapper .mainBdy .dsgnCen #dv_front #bg_img{width:100%; max-width:100%;}
+.popsOuter .popmanCnt{left:11%;}
+.grnLnk{margin-top:20px;}
+.productdetailsde .summary{width:48%;}
+.wrapper .mainBdy{width:98%; margin:0 auto;}
+.single_add_to_cart_button.ends{width:98%;}
+.productdetailsde .variations_form .variations tr td select{width:98%;}
+.productdetailsde .variations_form .variations{width:100%;}
+
+/*-----------------CheckOut*/
+.entry-content{margin:0 auto !important;}
+.content-area{margin:0 !important;}
+}
+
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) 
+and (orientation : landscape) {
+	.mobileMenu{display: none;}
+	.mobile_nav{display: none;}
+	
+	/*---------------------------Product*/
+.productdetailsde .images{float:left;}
+/*.wrapper .mainBdy .dsgnCen{float:left; margin:0;}*/
+.productdetailsde .summary{margin:0;}
+.productdetailsde .entry-summary{float:right;}
+.popsOuter .popmanCnt{left:22%;}
+}
+
+
+
+

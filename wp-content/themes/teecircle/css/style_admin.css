@@ -1,0 +1,561 @@
+.fade{ display:none; width:100%; height:100%; position:fixed; top:0px; left:0; z-index:100; 
+background:url(../images/tnsp_bg.png) repeat 0 0; display: none;}
+
+.fade .login .titl{ padding-bottom:5px; border-bottom:1px dotted #ccc; color:#2e2e2e; font:20px 'Conv_VarelaRound-Regular'; margin-bottom:10px;}
+.fade .login .titl span{ float:right;}
+.fade .login .titl span a{ font:15px Conv_VarelaRound-Regular; color:#547199;}
+
+.fade .login .loginRht a{color:#547199;}
+.fade .login .loginRht a:hover{color:#384047;}
+.fade .login .loginRht p{ margin-bottom:10px; color: #6D6D6D; font-size: 15px; line-height: 135%;}
+.fade .login .loginRht .socl{ margin-bottom:10px;}
+.fade .login .loginRht .socl li {border: 1px solid #CCCCCC; display: inline-block; margin-right: 5px; padding: 10px; width: 100px;}
+.fade .login .loginRht .socl li p{ padding:2px 0; text-align:center;}
+.fade .login .loginRht .socl li a{color:#547199;}
+.fade .login .loginRht .socl li a:hover{color:#384047;}
+.btmlnk{ padding-bottom:5px; color:#2e2e2e; font:20px 'Conv_VarelaRound-Regular'; margin-bottom:10px;}
+
+.fade .login .rgstrFrm .frmrw{ width:100%; margin-bottom:5px; font-size:13px;}
+.fade .login .rgstrFrm .frmrw label{ width:130px; float:left; margin-right:10px;}
+.fade .login .rgstrFrm .frmrw .input-text{ width:200px; float:left; padding:5px; height:20px; border:1px solid #ccc; outline:none;}
+.fade .login .rgstrFrm .frmrw .lgBt{ background:#05cb3f; border:0; padding:7px 10px; margin-top:10px; border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px; cursor:pointer; font-weight:bold; color:#fff; box-shadow:0 1px 1px #fff inset; border:1px solid #05cb3f;}
+.fade .login .rgstrFrm .frmrw .lgBt:hover{background:#03a633;}
+
+.fade .login .loginFrm .frmrw{ width:100%; margin-bottom:5px;}
+.fade .login .loginFrm .frmrw label{ width:130px; float:left; margin-right:10px;}
+.fade .login .loginFrm .frmrw .input-text{ width:200px; float:left; padding:5px; height:20px; border:1px solid #ccc; outline:none;}
+.fade .login .loginFrm .frmrw .lgBt{ background:#5fcf80; border:0; padding:5px 8px; margin:0 0 0 140px; border-radius: 3px;-moz-border-radius: 3px;-webkit-border-radius: 3px; cursor:pointer;}
+.fade .login .loginFrm .frmrw .lgBt:hover{background:#05cb3f;}
+.crsIcn{ text-align:right; margin-bottom:10px; margin:-7px 0 0 5px;}
+.crsIcn a{ font-size:20px; color:#547199;}
+
+.smlBx{ background:#F5F5F5; border:1px solid #ccc; border-radius: 3px;-moz-border-radius: 3px;-webkit-border-radius: 3px; padding:10px; margin-bottom:20px; box-shadow:0 0 0 4px rgba(100, 100, 100, 0.075); margin-left:5px; margin-top:5px; color: #6D6D6D; font: 15px 'Conv_VarelaRound-Regular'; line-height: 135%;}
+.smlBx h3{ font:20px 'Conv_UFONTS.COM_BRYANT-BOLD'; margin-bottom:10px; color:#000;}
+/*.smlBx .clickme2, .sbmt .clickme2{background:#5fcf80; border:0; padding:5px 8px; margin:0; border-radius: 3px;-moz-border-radius: 3px;-webkit-border-radius: 3px; cursor:pointer; font:18px 'Conv_UFONTS.COM_BRYANT-BOLD';}
+.smlBx .clickme2:hover{background:#05cb3f;}*/
+.smlBx .chkLst li{ margin-bottom:5px; font-size:13px;}
+.smlBx input[type="checkbox"]{ margin-right:5px; vertical-align:middle;}
+.smlBx p{ margin-bottom:10px; font-size:13px; color:#666;}
+.smlBx a{color:#547199;}
+.smlBx a:hover{color:#384047;}
+.smlBx .txtar{ width:95%; border:1px solid #ccc; background:#fff; height:100px; border-radius: 3px;-moz-border-radius: 3px;-webkit-border-radius: 3px; padding:10px; margin-bottom:10px; outline:none;}
+.smlBx .drpdwn{ width:100%; border:1px solid #ccc; background:#fff; height:30px; border-radius: 3px;-moz-border-radius: 3px;-webkit-border-radius: 3px; padding:5px; margin-bottom:10px; outline:none;}
+.smlBx .inptbx{ width:100px; border:1px solid #ccc; background:#fff; height:18px; border-radius: 3px;-moz-border-radius: 3px;-webkit-border-radius: 3px; padding:5px; outline:none;}
+.smlBx .inptbxSml{ width:50px; border:1px solid #ccc; background:#fff; height:18px; border-radius: 3px;-moz-border-radius: 3px;-webkit-border-radius: 3px; padding:5px; outline:none;}
+
+
+/*==================================design page start==============================*/
+
+#elementResizable { border: 1px solid #000000; width: 300px; height: 40px; overflow: hidden;}
+#nwgrip, #negrip, #swgrip, #segrip, #ngrip, #egrip, #sgrip, #wgrip { width: 10px; height: 10px; background-color: #ffffff; border: 1px solid #000000;}
+.ui-resizable-ne{cursor:pointer !important;	height:20px; width:20px;}
+.cls_tl{top:0;left:0;}
+.cls_tr{top:0;right:0;}
+.cls_br{bottom:0;right:0;}
+.cls_bl{bottom:0;left:0;}
+
+/*#segrip { right: -5px; bottom: -5px;}*/
+#text_container{top:75px;left:117px;position:absolute;	height:350px;width:200px;/*overflow:hidden;*/font-size: 16px;font-weight: bold;}
+.notindesign #text_container{top:13.7%; left:24.2%;}
+#text_container:hover{border:1px solid #000;}
+#text_container:hover .print_area{display: block;}
+#text_container .print_area{display: none;width: 97%;height: 20px;background: #fff;opacity: .5;bottom: 0;left: 0;position: absolute;border: 1px solid;color:#000;line-height: 20px;padding: 2px;font-size: 12px;text-align: center;font-weight: normal;}
+
+.draggable1{border:1px solid;cursor: move;display:inline-block;/*min-height:20px;line-height:80%;*/text-align: center;transform:rotate(0deg);	-ms-transform:rotate(0deg); /* IE 9 */-webkit-transform:rotate(0deg);	position: absolute; left: 65px; top: 130px;}
+/*.draggable1:hover{border:1px dashed
+	}*/
+	.cls_selected{
+		border:1px dashed green;
+	}
+	.ui-resizable-helper { border: 2px dotted #00F;/*display:block; box-sizing:content-box;*/ }
+	.colorpalet {
+		padding: 10px;
+		margin: 0;
+		}
+	.colorpalet span{	
+		list-style-type: none;
+		height: 15px;
+		width: 15px;
+		border: 1px solid #000;
+		display: inline-block;
+		cursor: pointer;
+		padding: 0px;
+	}
+	.cls_close{
+		background:url("../images/close1.png") no-repeat 50% 50%;
+		position:absolute;
+		top:0px;
+		right:0px;
+		height:16px;
+		width:16px;
+		cursor:pointer;		
+	}
+	.login{ display:none; background:#F8F6F6; border:1px solid ccc;  width:600px; height:auto; position:absolute; top:100px; left:30%; margin:0 auto; padding:15px; 
+	border-radius:8px; box-shadow:0 0 5px #333;}
+/*==================================design page end============================*/
+
+#shr .frmrw label{float:none; width:100%; display:block; margin:10px 0 5px 0; }
+#shr .frmrw .input-text{float:none; width:370px; height:30px; padding:0 5px; margin-bottom:6px;}
+
+
+
+/*-------------------- Login pop-up (pinaki 20-02-2014) ----------------------------*/
+#logch ul {list-style-type:none; text-align:center;}
+#logch .socl li {
+    border: 1px solid #CCCCCC;
+    display: inline-block;
+    margin-right: 5px;
+    padding: 10px;
+    width: 142px;
+	background:#929090;
+}
+#logch .socl li p { color:#fff}
+#reg .frmrw label{float:none; width:100%; display:block; margin:10px 0 5px 0;font-size:15px; }
+#reg .frmrw .input-text{float:none; width:370px; height:30px; padding:0 5px; margin-bottom:6px;}
+
+#log .frmrw label{float:none; width:100%; display:block; margin:10px 0 5px 0; }
+#log .frmrw label a{text-decoration:none;color:#333; }
+#log .frmrw .input-text{float:none; width:370px; height:30px; padding:0 5px; margin-bottom:6px;}
+/*#log .frmrw .lgBt {
+    background: none repeat scroll 0 0 #5FCF80;
+    border: 0 none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 8px 0 ;
+    padding: 5px 8px;
+}*/
+#log .rhtLnk{color:#333;}
+
+#post-11 .entry-header .entry-content .woocommerce .fade .login .titl p {
+    border-bottom: 1px solid #CCCCCC;
+    color: #2E2E2E;
+    font: 20px 'Conv_VarelaRound-Regular';
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.redTxt{color:#ff0000;}
+
+.fade .login .loginFrm .frmrw .lgBt{ margin-left:0;}
+#log .frmrw .lgBt{ background:#05cb3f; border:0; padding:7px 10px; margin-top:10px; border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px; cursor:pointer; font-weight:bold; color:#fff; box-shadow:0 1px 1px #fff inset; border:1px solid #05cb3f;}
+#log .frmrw .lgBt:hover{background:#03a633;}
+/*-------------------- Login pop-up (pinaki 20-02-2014) ----------------------------*/
+
+/*-------------------- Save Design pop-up (pinaki 21-02-2014) ----------------------------*/
+#loaderdiv .titl{color:#2e2e2e; font:20px 'Conv_VarelaRound-Regular'; margin-bottom:15px;text-align:center;border:none;}
+#loaderdiv .titl span{ text-align:center;background:url(../images/035.gif) no-repeat center 0;display:inline-block; width:100%; height:24px; margin-top:10px;}
+
+
+/*-------------------- Save Design pop-up (pinaki 21-02-2014) ----------------------------*/
+.smlBx .cdhurl{
+    float: left;
+    margin-bottom: 10px;
+	width:auto;
+	padding:0;
+	vertical-align:middle;
+}
+.smlBx .txtarall{width:97px;height:30px;border:solid 1px #ccc;border-radius: 3px;-moz-border-radius: 3px;-webkit-border-radius: 3px;background:#fff;margin-left:7px;vertical-align:middle;}
+
+.tickmark{ background:url(../images/tickmark.png) no-repeat 0 0;vertical-align:middle;width:16px;height:16px;}
+.cross{ background:url(../images/cross.png) no-repeat 0 0;vertical-align:middle;width:16px;height:16px;}
+.txtartxt{ width:462px;height:30px;border:solid 1px #ccc;border-radius: 3px;-moz-border-radius: 3px;-webkit-border-radius: 3px;background:#fff;margin-left:7px;vertical-align:middle;margin-bottom:5px;padding:0;}
+
+
+
+/*================================ runa 24022014 =======================================*/
+
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea, .woocommerce-page form .form-row input.input-text, .woocommerce-page form .form-row textarea{ height:30px!important;}
+
+.woocommerce form .form-row .country_to_state{ border: 1px solid #CCCCCC; width:100%; padding:3px;}
+.woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce #respond input#submit.alt, .woocommerce #content input.button.alt, .woocommerce-page a.button.alt, .woocommerce-page button.button.alt, .woocommerce-page input.button.alt, .woocommerce-page #respond input#submit.alt, .woocommerce-page #content input.button.alt{-moz-linear-gradient(center top , #3ac162 0%, #3ac162 100%) repeat scroll 0 0; border:0!important;}
+
+#customer_details h3, #order_review_heading{ margin-bottom:10px; font-family:'Conv_VarelaRound-Regular';}
+#billing_address_2_field, #shipping_address_2_field{ margin-left:35%;}
+#billing_country_chzn, #shipping_country_chzn{ width:55%!important; margin-left:-4px;}
+#billing_country_chzn .chzn-single, #shipping_country_chzn .chzn-single{ border: 1px solid #CCCCCC;font: 13px 'Conv_VarelaRound-Regular'; height: 20px; outline: medium none; padding: 5px; margin:0; background:#fff; border-radius:0; box-shadow:0!important;}
+
+#order_comments_field .input-text{ width:100%; height:100px!important;}
+
+#post-9 .login{ position:static!important;}
+
+/*================================= runa 25022014 =================================*/
+
+
+.notindesign .cls_selected{ border:0!important;}
+.notindesign #nwgrip, .notindesign #negrip, .notindesign #swgrip, .notindesign #segrip, .notindesign #ngrip, .notindesign #egrip, .notindesign #sgrip, .notindesign #wgrip, .notindesign .draggable1{ border:0; background:none;}
+.notindesign .front_print_area,.notindesign .back_print_area{ border:0; overflow: hidden;}
+
+/*================================= runa 25022014 end =================================*/
+
+/*-----------------------------Palash 26.2.14*/
+a {outline:none; border:0px; text-decoration:none;}
+/*#customer_login .col-1{width:66%; float:none; margin:0 auto;}*/
+#customer_login .login{width:93.2%; display:inline-block; position:relative; left:0; top:-10px; box-shadow:none;}
+#customer_login label{width:43%;}
+#customer_login input.button{margin-left:44%;}
+
+
+/*-------------------------For Popup*/
+.popsOuter{width:100%; height:100%; position:fixed; left:0; top:0; background:url(../images/tnsp_bg.png) repeat 0 0; z-index:999999 !important;}
+.popsOuter .popmanCnt{width:597px; height:500px; overflow-x:hidden; overflow-y:auto; position:relative; top:10%; left:30%; background:#fff; border:2px solid #cccccc;}
+.popsOuter .popmanCnt .hdSect{background:#cccccc; padding:6px 12px; position:relative;}
+.popsOuter .popmanCnt .hdSect h1{font:22px 'Conv_VarelaRound-Regular'; color:#333;}
+.popsOuter .popmanCnt .hdSect .crs{width:32px; height:32px; position:absolute; top:2px; right:5px; cursor:pointer;}
+.popsOuter .popmanCnt .popBdy{width:auto; padding:10px;}
+.popsOuter .popmanCnt .popBdy .tophd{width:97%; height:20px; padding:5px 0 5px 20px; background:#dddddd; clear:both;}
+.popsOuter .popmanCnt .popBdy .tophd li{width:65px; display:inline-block; font:bold 14px 'Conv_VarelaRound-Regular'; color:#333; float:left;}
+.popsOuter .popmanCnt .popBdy .tophd li.sty{width:348px;}
+
+.popsOuter .popmanCnt .popBdy .selSec{width:97%; padding:5px 0 5px 20px;}
+.popsOuter .popmanCnt .popBdy .selSec li{height:40px; display:block; margin-top:10px; border-top:1px dashed #cccccc; padding-top:10px;}
+.popsOuter .popmanCnt .popBdy .selSec li:first-child{border-top:0; padding-top:0;}
+.popsOuter .popmanCnt .popBdy .selSec li ul.bdyCnt{clear:both;}
+.popsOuter .popmanCnt .popBdy .selSec li ul.bdyCnt li{width:100%; height:40px; margin-top:0; border-top:0; padding-top:0; float:left;}
+.popsOuter .popmanCnt .popBdy .selSec li ul.bdyCnt li:first-child{margin-right:10px;}
+.popsOuter .popmanCnt .popBdy .selSec li ul.bdyCnt li{width:65px; display:inline-block; font:14px 'Conv_VarelaRound-Regular'; color:#787878;}
+.popsOuter .popmanCnt .popBdy .selSec li ul.bdyCnt li:first-child{width:50px;}
+.popsOuter .popmanCnt .popBdy .selSec li ul.bdyCnt li.selCol{width:80px;}
+.popsOuter .popmanCnt .popBdy .selSec li ul.bdyCnt li input, .popsOuter .popmanCnt .popBdy .selSec li ul.bdyCnt li select{width:94%; padding:5px 1%; border:1px solid #cccccc; outline:none; font:bold 14px Conv_VarelaRound-Regular; color:#787878;}
+.popsOuter .popmanCnt .popBdy .selSec li ul.bdyCnt li:first-child input{height:24px;}
+.popsOuter .popmanCnt .popBdy .selSec li ul.bdyCnt li select{width:55px; height:36px; padding:8px 2px;}
+.popsOuter .popmanCnt .popBdy .selSec li ul.bdyCnt li.sty{width:336px;}
+.popsOuter .popmanCnt .popBdy .selSec li ul.bdyCnt li.sty select{width:300px;}
+.popsOuter .popmanCnt .popBdy .btmBtn{margin-top:16px;}
+.popsOuter .popmanCnt .popBdy .btmBtn a{width:auto; height:28px; padding:6px 12px 0 12px; display:inline-block; background:url(../images/btnBg.gif) repeat-x 0 0; color:#fff; font:bold 13px Conv_VarelaRound-Regular; margin-left:10px; border-radius:5px;}
+
+.popsOuter .popmanCnt .popBdy .btmBtnSec{width:100%; margin-top:20px; text-align:center;}
+.popsOuter .popmanCnt .popBdy .btmBtnSec .lftports{width:45%; float:left;}
+.popsOuter .popmanCnt .popBdy .btmBtnSec .lftports a{display:inline-block; margin-bottom:10px;}
+.popsOuter .popmanCnt .popBdy .btmBtnSec .rhtports{width:45%; float:right;}
+
+.woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit, .woocommerce #content input.button, .woocommerce-page a.button, .woocommerce-page button.button, .woocommerce-page input.button, .woocommerce-page #respond input#submit, .woocommerce-page #content input.button{margin-top:10px !important; display:inline-block !important;}
+
+ul.products li.product a{display: inline-block !important; height: 366px !important;}
+
+/*-----------------------------------------Popup 2 Dipankar*/
+.sizingOuter{width:100%; height:100%; position:fixed; left:0; top:0; background:url(../images/tnsp_bg.png) repeat 0 0; z-index:9999;}
+.sizingOuter .sizingCont{width:580px;position:relative; top:30%; left:30%; background:#fff; border:2px solid #cccccc; padding:15px;}
+.sizingOuter .sizingCont .sizingText{ font-family:'Conv_VarelaRound-Regular'; color:#44474d; font-size:20px; font-weight:bold;}
+.sizingOuter .sizingCont .sizingText .close01{color: #000000;float:right;font-size: 40px;font-weight: bold;line- height: 1;opacity: 0.2;xt-shadow:0 1px 0 #FFFFFF;
+background:none; border:none; cursor:pointer;}
+
+.sizingOuter .sizingCont h4{font-family:'Conv_VarelaRound-Regular'; color:#44474d; font-size:13px; margin-top:0px !important;}
+.sizingOuter .sizingCont .hanesPart{width:auto; margin:0px; border:1px solid #CCC;font-family:'Conv_VarelaRound-Regular'; color:#44474d; font-size:15px; font-weight:bold;}
+.sizingOuter .sizingCont .hanesPart ul{margin:0px; padding:0px; font-style:none;}
+.sizingOuter .sizingCont .hanesPart ul:hover{background:#f5f5f5;}
+.sizingOuter .sizingCont .hanesPart ul li{width:55px; display:inline-block; margin-left:10px; border-left:1px solid #CCC; padding:10px 5px 10px 5px;}
+.sizingOuter .sizingCont .hanesPart ul li:first-child{border:none; margin:0px;}
+.sizingOuter .sizingCont .nexPart{width:auto; margin:0px; border-bottom:1px solid #CCC; border-right:1px solid #CCC;font-family:'Conv_VarelaRound-Regular'; color:#44474d; 
+font-size:14px;}
+.sizingOuter .sizingCont .nexPart ul{margin:0px; padding:0px; font-style:none;}
+.sizingOuter .sizingCont .nexPart ul:hover{background:#f5f5f5;}
+.sizingOuter .sizingCont .nexPart ul li{width:65px; display:inline-block; border-left:1px solid #CCC; padding:10px 5px 10px 5px; text-align:center;}
+.sizingOuter .sizingCont .nexPart ul li:first-child{margin:0px;}
+.sizingOuter .sizingCont .informationBtn{background:#8d9299; border-radius:5px; border-bottom:3px solid #737880; padding:8px 10px 8px 10px; border-right:none;border-left:none;border-top:none;color:#FFF; font-size:15px; cursor:pointer; font-weight:bold; margin-top:10px;}
+.sizingOuter .sizingCont .informationBtn:hover{background:#787f89; border-bottom:3px solid #464e5b;border- right:none;border-left:none;border-top:none;}
+/*-----------------------------------------Popup 2 Dipankar end*/
+
+/*================================ Campaign Page (Pinaki-28-02-2014) =================================*/
+.wrapper .mainBdy .CampaignTop{width:100%; margin:50px 0 30px 0;padding:6px 0;}
+.wrapper .mainBdy .CampaignTop h2.heading{width:60%; float:left;color:#44474d; font:bold 40px 'Conv_VarelaRound-Regular';}
+.wrapper .mainBdy .CampaignTop .camBtn{color:#fff; font:bold 16px Conv_VarelaRound-Regular; background:#5fcf80; border:none;border-radius: 3px; -moz-border-radius: 3px;-webkit-border-radius:3px; padding:15px 30px; height:36px; display:inline-block;width:auto;height:36px;padding:0 15px;cursor:pointer;float:right;}
+.wrapper .mainBdy .CampaignTop .camBtn:hover{background:#3ac162;}
+.wrapper .mainBdy .content{width:100%;}
+.wrapper .mainBdy .content .hdng{color:#44474d; font:30px 'Conv_VarelaRound-Regular';margin-bottom:15px;}
+.wrapper .mainBdy .content .listings{margin:0 0 30px 0;}
+.wrapper .mainBdy .content .listings .left{width:294px;float:left;}
+.wrapper .mainBdy .content .listings .right{width:536px;float:left;margin-left:30px;}
+.wrapper .mainBdy .content .listings .left .box{min-height:260px;width:100%;text-align:center;padding:12px 0 10px 0;background-color:#d8d8d8;position:relative; z-index:98}
+.wrapper .mainBdy .content .listings .left .box .imageHolder{position:relative;z-index:99;}
+.wrapper .mainBdy .content .listings .left .activeBtn{border:0;border-radius: 10px;-moz-border-radius: 10px;-webkit-border-radius: 10px;background:#aaaaaa;color:#fff; font: 13px Conv_VarelaRound-Regular;height:26px;padding:0 8px;position:absolute;overflow:auto;z-index:999;top:-12px;right:-12px;display:inline-block;cursor:pointer;}
+.wrapper .mainBdy .content .listings .right .hdngTxt{color:#8c979d; font:bold 16px Conv_VarelaRound-Regular;margin:40px 0 0 0;}
+.wrapper .mainBdy .content .listings .right .hdngTxt a{color:#547199; text-decoration:none;}
+.wrapper .mainBdy .content .listings .right .hdngTxt a:hover{text-decoration:underline;}
+.wrapper .mainBdy .content .listings .right .subTxt{font:14px 'Conv_VarelaRound-Regular';color:#8d9299;margin-top:20px;}
+.wrapper .mainBdy .content .listings .right .barBack{width:536px;height:10px;background:#DADCE0;margin:20px 0;}
+.wrapper .mainBdy .content .listings .right .barInside{background:#4bb232;height:10px;width:3%;}
+.wrapper .mainBdy .content .listings .right .barInsideInctv{background:#B2B2B2;height:10px;}
+.wrapper .mainBdy .content .listings .right .sellingDtls{padding:0;margin:0; height:42px;}
+.wrapper .mainBdy .content .listings .right .sellingDtls li{list-style:none;float:left;height:42px;border-left:solid 1px #8d9299; padding-left:20px; margin-left:20px;}
+.wrapper .mainBdy .content .listings .right .sellingDtls li:first-child{padding-left:0; border-left:0;}
+.wrapper .mainBdy .content .listings .right .sellingDtls li .hding{font:bold 14px Conv_VarelaRound-Regular;color:#8d9299;padding-bottom:5px;}
+.wrapper .mainBdy .content .listings .right .sellingDtls li .bottomText{font:13px Conv_VarelaRound-Regular;color:#8d9299;}
+.wrapper .mainBdy .content .listings .right .editDtls{margin:20px 0 0 0;padding:0;}
+.wrapper .mainBdy .content .listings .right .editDtls li{list-style:none;float:left;color:#8c979d; font:bold 16px Conv_VarelaRound-Regular;margin-right:20px;}
+.wrapper .mainBdy .content .listings .right .editDtls li a{color:#547199;text-decoration:none;}
+.wrapper .mainBdy .content .listings .right .editDtls li a:hover{text-decoration:underline;}
+
+/*================================ Campaign Page (Pinaki-28-02-2014) =================================*/
+
+/*================================ Edit Page (Pinaki-3-03-2014) =================================*/
+.wrapper .mainBdy .content .editBody{ width:100%;}
+.wrapper .mainBdy .content .editBody .editLelft{width:540px;float:left;}
+.wrapper .mainBdy .content .editBody .editRight{width:400px;float:right;}
+.wrapper .mainBdy .content .editBody .editLelft .hdngTxt{color:#44474d; font:bold 16px Conv_VarelaRound-Regular;margin:20px 0 8px 0;}
+.wrapper .mainBdy .content .editBody .editLelft .input03{width:528px;height:37px;border:solid 1px #acb0b8;color:#666; font:14px Conv_VarelaRound-Regular;padding:0 5px;}
+.wrapper .mainBdy .content .editBody .editLelft .textField{width:578px;height:auto;margin-bottom:5px;}
+.wrapper .mainBdy .content .editBody .editLelft .subTxt{color:#44474d; font:13px Conv_VarelaRound-Regular;margin:5px 0 0 0;}
+.wrapper .mainBdy .content .editBody .editLelft .checkbox_section{margin:10px 0 0 0;}
+.wrapper .mainBdy .content .editBody .editLelft .checkbox_section_txt{color:#44474d; font:bold 16px Conv_VarelaRound-Regular; vertical-align:middle;}
+.wrapper .mainBdy .content .editBody .editLelft .checkbox1{vertical-align:middle;margin-right:10px;}
+.wrapper .mainBdy .content .editBody .editLelft .textarea2{width:528px;height:174px;border:solid 1px #acb0b8;padding:5px;color:#666; font:14px Conv_VarelaRound-Regular;}
+.wrapper .mainBdy .content .editBody .editLelft .nameSection{width:100%;}
+.wrapper .mainBdy .content .editBody .editLelft .firstname{width:200px;float:left;}
+.wrapper .mainBdy .content .editBody .editLelft .lastname{width:200px;float:left;margin-left:20px;}
+.wrapper .mainBdy .content .editBody .editLelft .firstname_input{width:196px;height:37px;border:solid 1px #acb0b8;color:#666; font:14px Conv_VarelaRound-Regular;padding:0 5px;}
+.wrapper .mainBdy .content .editBody .editLelft .input04{width:420px;height:37px;border:solid 1px #acb0b8;color:#666; font:14px Conv_VarelaRound-Regular;padding:0 5px;}
+.wrapper .mainBdy .content .editBody .editLelft .stateDropdown{width:430px;height:37px;border:solid 1px #acb0b8;color:#666; font:14px Conv_VarelaRound-Regular;padding:5px;}
+.wrapper .mainBdy .content .editBody .editLelft .button_section{margin-bottom:30px;}
+.wrapper .mainBdy .content .editBody .editLelft .saveBtn{ color:#fff; font:bold 20px Conv_VarelaRound-Regular; border:none;background:#5fcf80; border-radius: 3px;-moz-border-radius: 3px;-webkit-border-radius: 3px; padding:0 30px; height:36px; display:inline-block;margin-top:15px;}
+.wrapper .mainBdy .content .editBody .editLelft .saveBtn:hover{background:#3ac162;}
+.wrapper .mainBdy .content .editBody .editLelft .cancelBtn{color:#fff; font:bold 16px Conv_VarelaRound-Regular; border:none;background:#8d9299; border-radius: 3px;-moz-border-radius: 3px;-webkit-border-radius: 3px; padding:0 15px; height:36px; display:inline-block;margin-top:15px;margin-left:12px;}
+.wrapper .mainBdy .content .editBody .editLelft .cancelBtn:hover{background:#6a6c6e;}
+.wrapper .mainBdy .content .editBody .editRight .front_backToggle{padding:0; margin:20px 0 0 0;}
+.wrapper .mainBdy .content .editBody .editRight .front_backToggle li{list-style:none;float:left;color:#8d9299;font:bold 14px Conv_VarelaRound-Regular;}
+.wrapper .mainBdy .content .editBody .editRight .front_backToggle li a{color:#8d9299;text-decoration:none;padding:0 5px;}
+.wrapper .mainBdy .content .editBody .editRight .front_backToggle li a:hover{text-decoration:underline;}
+/*================================ Edit Page (Pinaki-3-03-2014) =================================*/
+
+
+/*================================================== Goal Drop runa 28022014 ================================================*/
+
+.glDrp{margin-bottom:30px;}
+.glDrp p{margin-bottom:10px; color:#6d6d6d; line-height:135%; font:15px 'Conv_VarelaRound-Regular';}
+.glDrp .pts{margin-left:50px;}
+.glDrp .pts li{margin-bottom:5px; background:url("../images/arw.jpg") no-repeat scroll left center; padding-left:18px; color:#6d6d6d; font:15px Conv_VarelaRound-Regular;}
+
+.glDrp p.hglht{font:18px 'Conv_VarelaRound-Regular'; margin-bottom:10px; color:#63757E;}
+.glDrp .sbmt{margin-bottom:10px; width:100%;}
+.glDrp .sbmt a.gtSrtd{color:#fff; font:24px 'Conv_VarelaRound-Regular'; background:#5fd080; border-radius: 3px;-moz-border-radius: 3px;-webkit-border-radius: 3px; padding:10px 30px; display:inline-block;}
+.glDrp .sbmt a.gtSrtd:hover{background:#3ac162;}
+
+.glDrp .bsPrc{margin-bottom:10px;}
+.glDrp .bsPrc .txtFld{float:left; width:200px; margin-right:50px;}
+.glDrp .bsPrc .txtFld input[type="text"]{width:188px; height:24px; padding:5px; font:14px Conv_VarelaRound-Regular; color:#333; border:1px solid #cccccc; outline:none;}
+.glDrp .bsPrc .bsAmt p{margin-bottom:5px;}
+
+/*================================================== Goal Drop end ================================================*/
+
+/*=============================================== End Early runa 28022014 ======================================================*/
+
+.endRly{margin-bottom:30px;}
+.endRly p{margin-bottom:10px; color:#6d6d6d; line-height:135%; font:15px Conv_VarelaRound-Regular;}
+.endRly p.hglht{font:18px 'Conv_VarelaRound-Regular'; margin-bottom:10px; color:#63757E;}
+.endRly .sbmtBtn{margin-bottom:10px; padding-bottom:10px; border-bottom:1px solid #ccc;}
+.endRly .sbmtBtn a.gtSrtd{color:#fff; font:24px 'Conv_VarelaRound-Regular'; background:#5fd080; border-radius: 3px;-moz-border-radius: 3px;-webkit-border-radius: 3px; 
+padding:10px 30px; display:inline-block;}
+.endRly .sbmtBtn a.gtSrtd:hover{background:#3ac162;}
+
+.endRly .sbmtBtn a.lrnMr{color:#fff; font:24px 'Conv_VarelaRound-Regular'; background:#aab3bc; border-radius: 3px;-moz-border-radius: 3px;-webkit-border-radius: 3px; 
+padding:10px 30px; display:inline-block;}
+.endRly .sbmtBtn a.lrnMr:hover{background:#95a1ab;}
+
+/*=============================================== End Early end ======================================================*/
+
+
+/*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-[+][+][+][+][+][+][+][+]Palash[+][+][+][+][+][+][+]*/
+.productdetailsde .variations_form .variations{width:auto; border:0;}
+.productdetailsde .variations_form .variations tr td{font:bold 14px Conv_VarelaRound-Regular; color:#333; border:0; width:100%; display:block; padding:0 0 5px 0;}
+.productdetailsde .variations_form .variations tr td select{width:460px; height:34px; font:bold 14px Conv_VarelaRound-Regular; color:#787878;}
+.productdetailsde .variations_form .variations tr td select option{padding:4px;}
+.productdetailsde .dsgnCen{float:none !important; border:2px solid #dddddd; padding:25px;}
+.productdetailsde .images{float:left;}
+.productdetailsde .entry-summary{width:auto; float:right;}
+.sixingin a{font-weight:bold;}
+.productdetailsde .summary{width:470px;}
+.prod_divs p{margin-bottom:12px; line-height:none;}
+
+.pgbarouter{width:300px; height:12px; background:#DADCE0; border-radius:5px; overflow:hidden; margin-bottom:12px;}
+.pgbarouter .pgbar{height:12px; background:#43930e;}
+
+.pgbarouterInct{width:300px; height:12px; background:#B2B2B2; border-radius:5px; overflow:hidden; margin-bottom:12px;}
+.pgbarouterInct .pgbar{height:12px; background:#B2B2B2;}
+
+.soldHding{font:bold 16px Conv_VarelaRound-Regular; color:#787878; margin-bottom:8px;}
+.soldSubTxt{font-size:13px; margin-bottom:12px;}
+
+/*============================================= runa 06032014 ============================================*/
+
+.wrapper .header .othSec{width:auto; font:13px 'Conv_VarelaRound-Regular'; color:#fff; position:relative; margin-top:9px;}
+.wrapper .header .othSec ul{width:190px; background:#dddddd; border:1px solid #cccccc; position:absolute;top:25px; right: -19px;}
+.wrapper .header .othSec ul li{display:block; background:url(../images/sepBor.gif) repeat-x 0 0;}
+.wrapper .header .othSec ul li:first-child{background:none; padding-top:0;}
+.wrapper .header .othSec ul li a, .wrapper .header .othSec ul li input{width:100%; font:13px 'Conv_VarelaRound-Regular'; color:#333; display:inline-block; 
+padding:8px 2% 0 2%; text-align:left;}
+.wrapper .header .othSec ul li a{width:92%; margin-top:0; padding:9px 4%;}
+.wrapper .header .othSec ul li.camp a{background:url(../images/campaigns.png) no-repeat 170px 11px; transition:background 0.4s ease-in-out;}
+.wrapper .header .othSec ul li.draft a{background:url(../images/draft.png) no-repeat 170px 11px; transition:background 0.4s ease-in-out;}
+.wrapper .header .othSec ul li.paid a{background:url(../images/paid.png) no-repeat 170px 11px; transition:background 0.4s ease-in-out;}
+.wrapper .header .othSec ul li.accset a{background:url(../images/account_setting.png) no-repeat 170px 11px; transition:background 0.4s ease-in-out;}
+
+.wrapper .header .othSec ul li input{background:none; outline:none; border:0; cursor:pointer; padding-bottom:10px; text-align:left;}
+.wrapper .header .othSec ul li:hover a, .wrapper .header .othSec ul li:hover input{background-color:#333; color:#fff;}
+
+.wrapper .header .othSec ul li.camp:hover a{background:url(../images/campaigns_ho.png) no-repeat 170px 11px #333;}
+.wrapper .header .othSec ul li.draft:hover a{background:url(../images/draft_hover.png) no-repeat 170px 11px #333;}
+.wrapper .header .othSec ul li.paid:hover a{background:url(../images/paid_hover.png) no-repeat 170px 11px #333;}
+.wrapper .header .othSec ul li.accset:hover a{background:url(../images/account_setting_hover.png) no-repeat 170px 11px #333;}
+
+/*============================================= runa 06032014 end ============================================*/
+.coldivsc{
+	display: none;
+}
+#campaigns .listings{margin:0;}
+#campaigns .listings .left{width:176px;}
+#campaigns .listings .left .box{min-height:0; padding:0;}
+#campaigns .listings .left .box span .dsgnCen{width:inherit; margin:0; float:none; position:relative; overflow:visible;}
+#campaigns .listings .left .box span .dsgnCen img{max-width:100%; display:block;}
+/*#campaigns #text_container{left:0; top:0; width:auto; height:auto; overflow:visible;}*/
+#campaigns #text_container .draggable1{line-height:normal; left:0; top:0;}
+#campaigns .listings{margin-bottom:20px; padding-top:20px; border-top:1px dashed #787878;}
+/*#campaigns .listings:first-child{padding:0; margin:0; border:0;}*/
+#campaigns .listings .right{width:516px; float:none; float:right; margin-left:0;}
+#campaigns .hdng{margin-bottom:8px;}
+
+#campaigns .listings .left .box span .dsgnCen #dv_front{transform: scale(0.6); margin:0;
+-webkit-transform: scale(0.6);
+  -moz-transform: scale(0.6);
+  -ms-transform: scale(0.6);
+  -o-transform: scale(0.6);
+  transform: scale(0.6);
+}
+
+/*--------------------------------phs2*/
+#campaignsdraft .listings{margin:0;}
+#campaignsdraft .listings .left{width:176px;}
+#campaignsdraft .listings .left .box{min-height:0; padding:10px 0;}
+#campaignsdraft .listings .left .box span .dsgnCen{width:inherit; margin:0; float:none; position:relative; overflow:visible;}
+#campaignsdraft .listings .left .box span .dsgnCen img{max-width:100%; display:block;}
+#campaignsdraft #text_container{left:0; top:0; width:auto; height:auto; overflow:visible;}
+#campaignsdraft #text_container .draggable1{line-height:normal; left:0; top:0;}
+#campaignsdraft .listings{margin-bottom:20px; padding-top:20px; border-top:1px dashed #787878;}
+/*#campaigns .listings:first-child{padding:0; margin:0; border:0;}*/
+#campaignsdraft .listings .right{width:516px; float:none; float:right; margin-left:0;}
+#campaignsdraft .hdng{margin-bottom:8px;}
+
+#campaigns .listings .left .box span .dsgnCen #dv_front{transform: scale(0.6); margin:0;
+-webkit-transform: scale(0.6);
+  -moz-transform: scale(0.6);
+  -ms-transform: scale(0.6);
+  -o-transform: scale(0.6);
+  transform: scale(0.6);
+}
+
+.wrapper .mainBdy .content .listings .right .editDtls li{margin-right:16px;}
+.coldivsc .noval{width:96%; margin-bottom:12px; display:inline-block; padding:4px 2%; background:#ebebeb; color:#333;}
+.sbmt a{background:#dddddd; border:0; padding:6px 8px; margin:0; border-radius: 3px;-moz-border-radius: 3px;-webkit-border-radius: 3px; cursor:pointer; font:18px 'Conv_UFONTS.COM_BRYANT-BOLD'; color:#333;}
+
+.draggable1{position:relative; padding:20px; z-index:9999; background:url(../images/dragtee.png) no-repeat 0 0;}
+.draggable1 span{border:1px dashed #000;}
+
+/*.draggable1 #swgrip{width:14px; height:14px; background:url(../images/rotatetee.png) no-repeat center center;/* bottom:-9px; left:-16px;* /bottom:0; left:1px; z-index:999;}*/
+.draggable1 #handle{width:14px; height:14px; background:url(../images/rotatetee.png) no-repeat center center;/* bottom:-9px; left:-16px;*/bottom:0; left:1px; z-index:999; display: block; font-size: 0.1px; position: absolute; cursor: auto;}
+.draggable1 #segrip{width:14px; height:14px; background:url(../images/scaletee.png) no-repeat center center;/* bottom:-9px; right:-16px;*/bottom:0; right:1px; z-index:999;}
+.draggable1 #negrip{width:14px; height:14px; background:url(../images/deletetee.png) no-repeat center center;/* top:-18px; right:-16px;*/ top:0; right:1px; z-index:999;}
+/*.draggable1 #nwgrip{width:14px; height:14px; background:url(../images/dragtee.png) no-repeat center center; (top:-18px; left:-16px;) top:0; left:1px; z-index:999;}*/
+.draggable1 #nwgrip{display:none;}
+
+.accord h3{cursor:pointer;}
+#addvamullichek.selSec li{width:100%; margin:0; display:block; float:none; height:auto; border:0;}
+#addvamullichek.selSec li p{margin-bottom:4px;}
+#addvamullichek.selSec li input[type="text"], #addvamullichek.selSec li textarea{width:97%; resize:none;}
+#addvamullichek.selSec li .btmBtnSec .lftports a{display:inline-block;}
+#addvamullichek.selSec li .lftports{width:100%; float:none;}
+
+.cls_selected{border:0 none;}
+
+/*-------------------------For Blocking*/
+.notindesign #negrip, .notindesign #swgrip, .notindesign #segrip{display:none;}
+.notindesign .draggable1{color: #000000;}
+.notindesign .draggable1 span{border:none;}
+.notindesign .entry-content a:hover, .notindesign .comment-content a:hover{color:inherit;}
+/*.entry-content a:hover, .comment-content a:hover{color:inherit !important;}*/
+.notindesign a:hover{color:inherit;}
+.notindesign a{cursor:default;}
+.notindesign .draggable1 span{cursor:default;}
+.notindesign .seeBack{display:none;}
+.notindesign #campaigns #text_container{cursor:default;}
+.notindesign .draggable1{cursor:default;}
+
+.fontvah{width:auto; margin-bottom:10px;}
+.fontvah .txc, .fontvah .tetfoc, .fontvah .otco{width:auto; float:left;}
+.fontvah .tetfoc{margin:28px 20px 0 20px;}
+.fontvah .tetfoc select{border:1px solid #cccccc; padding:8px; width:60px; height:38px; outline:none;}
+
+#logch .socl li{width:140px; height:72px; padding:10px 0; background:none; box-shadow:0 0 3px #cccccc; vertical-align:top; background:#fff;}
+#logch .socl li p{color:#333;}
+#text_container{z-index:999999;}
+.fade{z-index:9999999;}
+.login{top:30%;}
+#campaigns .listings .left .box span .notindesign{z-index:999 !important;}
+#campaigns .listings .left .box span .notindesign #dv_front #text_container{height:auto !important; left:0 !important; top:0 !important; vertical-align:top !important; margin: -3px 0 0 -25px !important; /*overflow:visible !important; */
+transform: scale(0.4) !important; -moz-transform: scale(0.4) !important; -webkit-transform: scale(0.4) !important; -ms-transform: scale(0.4) !important; -o-transform: scale(0.4) !important;}
+.fancybox-opened{z-index:999999 !important;}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+.fancybox-overlay{z-index:9999999 !important;}
+}
+.notindesign .cls_close{display:none;}
+.notindesign .draggable1 span{border:none !important;}
+.pro_fade .login{top:20px; width:auto; height:auto;}
+.pro_fade .login .dsgnCen{margin-top:0;}
+.notindesign #text_container{z-index:99;}
+
+
+/*================================== runa 26032014 =======================================*/
+
+.ui-slider .step i { border-left: 1px solid rgba(0, 0, 0, 0.25);  height: 13px;  left: 50%; position: absolute; top: -22px;}
+
+/*================================== runa 26032014 end =======================================*/
+
+/*================================== runa 27032014 =======================================*/
+
+.notindesign .print_area{ display:none!important;}
+.cmnBtn{background:url(../images/btnbk.jpg) repeat-x 0 0; border: 0; border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;  cursor: pointer; font:bold 19px 'Conv_VarelaRound-Regular'; margin: 0; padding: 0 10px; height:47px; color:#fff;}
+.cmnGry{background:url(../images/grBtn.jpg) repeat-x 0 0; border: 0; border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;  cursor: pointer; font:bold 19px 'Conv_VarelaRound-Regular'; margin: 0; padding: 0 10px; height:47px; color:#fff;}
+
+.cmnGrya{background:url(../images/grBtn.jpg) repeat-x 0 0; border: 0; border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;  cursor: pointer; font:bold 19px 'Conv_VarelaRound-Regular'; margin: 0; padding: 12px 10px; height:23px; color:#fff; text-align:center}
+
+#text_container{z-index:999;}
+.draggable1{ border:0;}
+
+#negripimg, #swgripimg, #segripimg{ width: 10px; height: 10px; background-color: #ffffff; border: 1px solid #000000;}
+
+.draggable1 #swgripimg{width:14px; height:14px; background:url(../images/rotatetee.png) no-repeat center center;bottom:0; left:1px; z-index:999; position:absolute;}
+.draggable1  .ui-icon-gripsmall-diagonal-se{width:14px; height:14px; background:url(../images/scaletee.png) no-repeat center center;bottom:0; right:1px; z-index:999; position:absolute; border:1px solid #000;}
+.draggable1 #negripimg{width:14px; height:14px; background:url(../images/deletetee.png) no-repeat center center;top:0; right:1px; z-index:999; position:absolute;}
+
+.ui-wrapper{ position:static!important;}
+
+/*================================== runa 27032014 end =======================================*/
+
+table.my_account_orders .order-actions{ height:45px;}
+.outlineval{ margin:10px 0; }
+.outlineval .chootr{ width:60%; float:left;}
+.tabsArea ul.tabsContent li .SelectSec.rnsec{ width:100%; height:38px; padding:10px;}
+.outlineval .otco{ float:right;}
+/*#swgrip{ display:none;}*/
+.notindesign #text_container{border: 0px !important;}
+#dv_front #bg_img{ width: 436px; height: auto;}
+#dv_back #bg_img1{ width: 436px; height: auto;}
+
+/*================================== runa 31032014 =======================================*/
+
+.grnLnk{ background:url(../images/btnbk.jpg) repeat-x scroll 0 0; padding:0 10px; border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px; display:inline-block; height:47px;}
+.grnLnk a{ font:bold 17px  'Conv_VarelaRound-Regular'; color:#fff!important; text-decoration:none; line-height:40px;}
+.grnLnk a:hover{text-decoration:none!important;}
+
+.gryLnk{ background:url(../images/grBtn.jpg) repeat-x scroll 0 0; height:38px; padding:0 10px; border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px; display:inline-block;}
+.gryLnk a{ font:bold 17px  'Conv_VarelaRound-Regular'; color:#fff!important; text-decoration:none; line-height:40px;}
+.gryLnk a:hover{text-decoration:none!important;}
+
+.my_account_orders .gryLnk{ margin-left:2px;}
+.edditcommyaccount h2{ margin-top:10px; font-family:'Conv_VarelaRound-Regular';}
+.woocommerce table.my_account_orders, .woocommerce-page table.my_account_orders{ font-size:14px!important;}
+.woocommerce table.my_account_orders a, .woocommerce-page table.my_account_orders a{ color:#547199;}
+.woocommerce table.my_account_orders a:hover, .woocommerce-page table.my_account_orders a:hover{ text-decoration:underline;}
+
+/*================================== runa 31032014 end =======================================*/
+.draggable1 #swgrip,.notindesign .ui-resizable-handle,.notindesign .handlerotate{display: none !important;}
+.notindesign .draggable1{
+	background: none !important;
+}

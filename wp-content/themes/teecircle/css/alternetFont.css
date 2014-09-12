@@ -1,0 +1,30 @@
+
+/*@font-face {
+	font-family: 'Conv_UFONTS.COM_BRYANT-BOLD';
+	src: url('../font/UFONTS.COM_BRYANT-BOLD.eot');
+	src: local('☺'), url('../font/UFONTS.COM_BRYANT-BOLD.woff') format('woff'), url('../font/UFONTS.COM_BRYANT-BOLD.ttf') format('truetype'), url('../font/UFONTS.COM_BRYANT-BOLD.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}*/
+@font-face {
+	font-family: 'Conv_UFONTS.COM_BRYANT-BOLD';
+	src: url('fonts/VarelaRound-Regular.eot');
+	src: local('☺'), 
+	url('../font/VarelaRound-Regular.woff') format('woff'), 
+	url('../font/VarelaRound-Regular.ttf') format('truetype'), 
+	url('../font/VarelaRound-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Conv_VarelaRound-Regular';
+	src: url('fonts/VarelaRound-Regular.eot');
+	src: local('☺'), 
+	url('../font/VarelaRound-Regular.woff') format('woff'), 
+	url('../font/VarelaRound-Regular.ttf') format('truetype'), 
+	url('../font/VarelaRound-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
