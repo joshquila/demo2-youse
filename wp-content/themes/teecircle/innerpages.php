@@ -21,4 +21,4 @@ Template Name: Innerpages Simple
       <!--Body end--> 
       
       
-	<?php  	wp_reset_query(); 		get_footer('main');?>
+	<?php  	wp_reset_query(); 		get_footer();?>

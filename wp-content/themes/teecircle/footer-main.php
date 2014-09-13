@@ -75,9 +75,7 @@
 	</div>
 </div>
   
-	<div class="lastsectionfooter">
-	Copyright 2008-2013 TeeCircle I All Rights Reserved I <a href="http://demo.youse.us/terms-of-service/" >Terms of Service</a> I <a href="http://demo.youse.us/privacy-policy/">Privacy Policy</a>
-	</div>
+	
   <!--Footer end-->
   
 </div>

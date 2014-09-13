@@ -876,7 +876,7 @@ img.wp-smiley,
 ul.nav-menu,
 div.nav-menu > ul {
 	margin: 0;
-	padding: 0 40px 0 0;
+	padding: 0;
 }
 
 .nav-menu li {
@@ -885,29 +885,24 @@ div.nav-menu > ul {
 }
 
 .nav-menu li a {
-	color: #141412;
+	color: #cccccc;
 	display: block;
-	font-size: 15px;
-	line-height: 1;
-	padding: 15px 20px;
+	font-size: 15px;	
+	padding: 7px 20px;
 	text-decoration: none;
 }
 
 .nav-menu li:hover > a,
 .nav-menu li a:hover {
-	background-color: #220e10;
-	color: #fff;
+	background: none no-repeat scroll 0 0 rgba(0, 0, 0, 0.23);
+    color: #ffffff;
 }
 
 .nav-menu .sub-menu,
-.nav-menu .children {
-	background-color: #220e10;
-	border: 2px solid #f7f5e7;
-	border-top: 0;
+.nav-menu .children {	
 	display: none;
 	padding: 0;
-	position: absolute;
-	left: -2px;
+	position: absolute;	
 	z-index: 99999;
 }
 
@@ -3168,3 +3163,4 @@ ul.tee_nav li{
 		color: #333;
 	}
 }
+

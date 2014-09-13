@@ -1,0 +1,204 @@
+[18-Nov-2013 00:18:45] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/config/dbconfig.php on line 7
+[18-Nov-2013 00:25:56] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/config/dbconfig.php on line 7
+[18-Nov-2013 00:26:12] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/config/dbconfig.php on line 7
+[18-Nov-2013 00:26:13] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/config/dbconfig.php on line 7
+[18-Nov-2013 00:26:17] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/config/dbconfig.php on line 7
+[18-Nov-2013 00:26:17] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/config/dbconfig.php on line 7
+[18-Nov-2013 00:26:18] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/config/dbconfig.php on line 7
+[18-Nov-2013 00:27:01] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/config/dbconfig.php on line 7
+[18-Nov-2013 00:27:03] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/config/dbconfig.php on line 7
+[18-Nov-2013 00:27:03] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/config/dbconfig.php on line 7
+[18-Nov-2013 00:27:11] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'sausuman_open'@'localhost' (using password: NO) in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/config/dbconfig.php on line 7
+[18-Nov-2013 00:27:29] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'sausuman_open'@'localhost' (using password: NO) in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/config/dbconfig.php on line 7
+[18-Nov-2013 00:27:35] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'sausuman_open'@'localhost' (using password: YES) in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/config/dbconfig.php on line 7
+[18-Nov-2013 00:29:27] CSRF state token does not match one provided.
+[18-Nov-2013 01:06:39] CSRF state token does not match one provided.
+[18-Nov-2013 01:39:30] CSRF state token does not match one provided.
+[18-Nov-2013 01:39:33] PHP Fatal error:  Call to a member function setQuery() on a non-object in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/config/functions.php on line 17
+[18-Nov-2013 01:44:49] CSRF state token does not match one provided.
+[18-Nov-2013 01:45:52] CSRF state token does not match one provided.
+[18-Nov-2013 01:46:03] CSRF state token does not match one provided.
+[18-Nov-2013 03:44:20] PHP Parse error:  syntax error, unexpected '=' in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/login-twitter.php on line 6
+[18-Nov-2013 03:45:40] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/login-twitter.php:7) in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/login-twitter.php on line 20
+[18-Nov-2013 03:58:01] PHP Warning:  require_once(src/apiClient.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/google_login.php on line 17
+[18-Nov-2013 03:58:01] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'src/apiClient.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/google_login.php on line 17
+[18-Nov-2013 10:00:57] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/google_login.php:67) in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/google_login.php on line 72
+[18-Nov-2013 04:29:23] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/home.php:7) in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/home.php on line 8
+[18-Nov-2013 04:29:23] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/home.php:7) in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/home.php on line 12
+[18-Nov-2013 04:30:03] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/home.php:7) in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/home.php on line 8
+[18-Nov-2013 04:30:03] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/home.php:7) in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/home.php on line 12
+[18-Nov-2013 04:30:07] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/home.php:7) in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/home.php on line 7
+[18-Nov-2013 04:30:07] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/home.php:7) in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/home.php on line 11
+[18-Nov-2013 10:35:04] PHP Fatal error:  Uncaught exception 'apiServiceException' with message 'Error calling GET https://www.googleapis.com/oauth2/v2/userinfo: (401) Login Required' in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/src/io/apiREST.php:86
+Stack trace:
+#0 /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/src/io/apiREST.php(56): apiREST::decodeHttpResponse(Object(apiHttpRequest))
+#1 /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/src/service/apiServiceResource.php(187): apiREST::execute(Object(apiServiceRequest))
+#2 /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/src/contrib/apiOauth2Service.php(42): apiServiceResource->__call('get', Array)
+#3 /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/google_login.php(47): UserinfoServiceResource->get()
+#4 {main}
+  thrown in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/src/io/apiREST.php on line 86
+[18-Nov-2013 10:39:33] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/google_login.php:29) in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/google_login.php on line 72
+[18-Nov-2013 10:40:10] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/google_login.php:29) in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/google_login.php on line 74
+[18-Nov-2013 10:40:58] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/google_login.php:29) in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/google_login.php on line 74
+[18-Nov-2013 10:41:00] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/google_login.php:29) in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/google_login.php on line 74
+[18-Nov-2013 10:41:09] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/google_login.php:29) in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/google_login.php on line 74
+[18-Nov-2013 10:42:12] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/google_login.php:29) in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/google_login.php on line 74
+[18-Nov-2013 10:42:16] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/google_login.php:29) in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/google_login.php on line 74
+[18-Nov-2013 10:42:21] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/google_login.php:29) in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/google_login.php on line 74
+[18-Nov-2013 10:47:21] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/google_login.php:29) in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/google_login.php on line 74
+[18-Nov-2013 10:47:25] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/google_login.php:29) in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/google_login.php on line 75
+[18-Nov-2013 12:01:09] PHP Warning:  require_once(service/Google_Model.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/src/Google_Client.php on line 44
+[18-Nov-2013 12:01:09] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'service/Google_Model.php' (include_path='/home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/src:.:/usr/lib/php:/usr/local/lib/php') in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/src/Google_Client.php on line 44
+[18-Nov-2013 12:02:38] PHP Warning:  require_once(service/Google_Model.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/src/Google_Client.php on line 44
+[18-Nov-2013 12:02:38] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'service/Google_Model.php' (include_path='/home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/src:.:/usr/lib/php:/usr/local/lib/php') in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/src/Google_Client.php on line 44
+[18-Nov-2013 12:03:08] PHP Warning:  require_once(service/Google_Model.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/src/Google_Client.php on line 44
+[18-Nov-2013 12:03:08] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'service/Google_Model.php' (include_path='/home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/src:.:/usr/lib/php:/usr/local/lib/php') in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/src/Google_Client.php on line 44
+[18-Nov-2013 12:37:20] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/google_login.php:38) in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/google_login.php on line 54
+[19-Nov-2013 02:18:56] PHP Parse error:  syntax error, unexpected $end in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/config/functions.php on line 59
+[19-Nov-2013 02:19:57] CSRF state token does not match one provided.
+[20-Nov-2013 01:26:28] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/login-facebook.php:13) in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/login-facebook.php on line 49
+[20-Nov-2013 01:30:28] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/login-facebook.php:13) in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/login-facebook.php on line 53
+[02-Dec-2013 04:15:56] PHP Warning:  require(src/facebook.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/example.php on line 18
+[02-Dec-2013 04:15:56] PHP Warning:  require(src/facebook.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/example.php on line 18
+[02-Dec-2013 04:15:56] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'src/facebook.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/example.php on line 18
+[02-Dec-2013 04:16:54] PHP Fatal error:  Uncaught OAuthException: (#200) The user hasn't authorized the application to perform this action
+  thrown in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/facebook/base_facebook.php on line 1028
+[02-Dec-2013 04:26:36] PHP Fatal error:  Uncaught OAuthException: (#200) The user hasn't authorized the application to perform this action
+  thrown in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/facebook/base_facebook.php on line 1028
+[02-Dec-2013 04:26:51] PHP Fatal error:  Uncaught OAuthException: (#200) The user hasn't authorized the application to perform this action
+  thrown in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/facebook/base_facebook.php on line 1028
+[02-Dec-2013 05:04:28] PHP Fatal error:  Uncaught OAuthException: An active access token must be used to query information about the current user.
+  thrown in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/facebook/base_facebook.php on line 1028
+[02-Dec-2013 05:05:10] PHP Fatal error:  Uncaught OAuthException: (#200) The user hasn't authorized the application to perform this action
+  thrown in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/facebook/base_facebook.php on line 1028
+[02-Dec-2013 05:05:14] PHP Fatal error:  Uncaught OAuthException: (#200) The user hasn't authorized the application to perform this action
+  thrown in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/facebook/base_facebook.php on line 1028
+[02-Dec-2013 05:31:58] PHP Fatal error:  Uncaught OAuthException: (#200) The user hasn't authorized the application to perform this action
+  thrown in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/facebook/base_facebook.php on line 1028
+[02-Dec-2013 05:32:35] PHP Fatal error:  Uncaught OAuthException: (#200) The user hasn't authorized the application to perform this action
+  thrown in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/facebook/base_facebook.php on line 1028
+[02-Dec-2013 07:56:59] PHP Fatal error:  Uncaught OAuthException: (#200) The user hasn't authorized the application to perform this action
+  thrown in /home1/sausuman/public_html/testserver1/fanter/facebook_twitter_login/facebook/base_facebook.php on line 1028
+[02-Dec-2013 07:57:28] CSRF state token does not match one provided.
+[03-Dec-2013 14:04:24 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/fanter/public_html/facebook_twitter_login/config/functions.php on line 64
+[03-Dec-2013 14:09:06 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/fanter/public_html/facebook_twitter_login/config/functions.php on line 64
+[03-Dec-2013 14:15:01 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/fanter/public_html/facebook_twitter_login/config/functions.php on line 64
+[03-Dec-2013 14:18:53 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/fanter/public_html/facebook_twitter_login/config/functions.php on line 64
+[03-Dec-2013 14:18:56 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/fanter/public_html/facebook_twitter_login/config/functions.php on line 64
+[03-Dec-2013 14:19:09 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/fanter/public_html/facebook_twitter_login/config/functions.php on line 64
+[03-Dec-2013 14:19:17 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/fanter/public_html/facebook_twitter_login/config/functions.php on line 64
+[03-Dec-2013 14:19:44 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/fanter/public_html/facebook_twitter_login/config/functions.php on line 64
+[03-Dec-2013 14:19:56 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/fanter/public_html/facebook_twitter_login/config/functions.php on line 64
+[14-Mar-2014 02:11:28] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/config/dbconfig.php on line 7
+[14-Mar-2014 02:12:28] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/config/dbconfig.php on line 7
+[14-Mar-2014 02:15:05] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/config/functions.php on line 10
+[14-Mar-2014 02:15:38] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/config/functions.php on line 10
+[14-Mar-2014 03:13:31] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/config/functions.php on line 10
+[14-Mar-2014 03:16:32] CSRF state token does not match one provided.
+[14-Mar-2014 03:31:22] CSRF state token does not match one provided.
+[14-Mar-2014 04:02:08] PHP Warning:  Unexpected character in input:  ''' (ASCII=39) state=1 in /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/config/functions.php on line 56
+[14-Mar-2014 04:02:08] PHP Parse error:  syntax error, unexpected $end in /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/config/functions.php on line 56
+[14-Mar-2014 04:14:57] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/config/functions.php:9) in /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/login-facebook.php on line 52
+[14-Mar-2014 04:15:39] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/config/functions.php:9) in /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/login-facebook.php on line 52
+[14-Mar-2014 04:41:17] CSRF state token does not match one provided.
+[14-Mar-2014 10:53:21] PHP Fatal error:  Uncaught exception 'Google_ServiceException' with message 'Error calling GET https://www.googleapis.com/plus/v1/people/me?key=AIzaSyDPjvgqCcFpCD3ij-tACvPj7A62q7ML8ns: (403) Access Not Configured. Please use Google Developers Console to activate the API for your project.' in /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/io/Google_REST.php:66
+Stack trace:
+#0 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/io/Google_REST.php(36): Google_REST::decodeHttpResponse(Object(Google_HttpRequest))
+#1 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/service/Google_ServiceResource.php(186): Google_REST::execute(Object(Google_HttpRequest))
+#2 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/contrib/Google_PlusService.php(229): Google_ServiceResource->__call('get', Array)
+#3 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/google_login.php(34): Google_PeopleServiceResource->get('me')
+#4  in /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/io/Google_REST.php on line 66
+[14-Mar-2014 10:53:22] PHP Fatal error:  Uncaught exception 'Google_ServiceException' with message 'Error calling GET https://www.googleapis.com/plus/v1/people/me?key=AIzaSyDPjvgqCcFpCD3ij-tACvPj7A62q7ML8ns: (403) Access Not Configured. Please use Google Developers Console to activate the API for your project.' in /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/io/Google_REST.php:66
+Stack trace:
+#0 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/io/Google_REST.php(36): Google_REST::decodeHttpResponse(Object(Google_HttpRequest))
+#1 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/service/Google_ServiceResource.php(186): Google_REST::execute(Object(Google_HttpRequest))
+#2 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/contrib/Google_PlusService.php(229): Google_ServiceResource->__call('get', Array)
+#3 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/google_login.php(34): Google_PeopleServiceResource->get('me')
+#4  in /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/io/Google_REST.php on line 66
+[14-Mar-2014 10:53:39] PHP Fatal error:  Uncaught exception 'Google_ServiceException' with message 'Error calling GET https://www.googleapis.com/plus/v1/people/me?key=AIzaSyDPjvgqCcFpCD3ij-tACvPj7A62q7ML8ns: (403) Access Not Configured. Please use Google Developers Console to activate the API for your project.' in /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/io/Google_REST.php:66
+Stack trace:
+#0 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/io/Google_REST.php(36): Google_REST::decodeHttpResponse(Object(Google_HttpRequest))
+#1 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/service/Google_ServiceResource.php(186): Google_REST::execute(Object(Google_HttpRequest))
+#2 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/contrib/Google_PlusService.php(229): Google_ServiceResource->__call('get', Array)
+#3 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/google_login.php(34): Google_PeopleServiceResource->get('me')
+#4  in /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/io/Google_REST.php on line 66
+[14-Mar-2014 10:53:39] PHP Fatal error:  Uncaught exception 'Google_ServiceException' with message 'Error calling GET https://www.googleapis.com/plus/v1/people/me?key=AIzaSyDPjvgqCcFpCD3ij-tACvPj7A62q7ML8ns: (403) Access Not Configured. Please use Google Developers Console to activate the API for your project.' in /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/io/Google_REST.php:66
+Stack trace:
+#0 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/io/Google_REST.php(36): Google_REST::decodeHttpResponse(Object(Google_HttpRequest))
+#1 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/service/Google_ServiceResource.php(186): Google_REST::execute(Object(Google_HttpRequest))
+#2 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/contrib/Google_PlusService.php(229): Google_ServiceResource->__call('get', Array)
+#3 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/google_login.php(34): Google_PeopleServiceResource->get('me')
+#4  in /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/io/Google_REST.php on line 66
+[14-Mar-2014 10:53:46] PHP Fatal error:  Uncaught exception 'Google_ServiceException' with message 'Error calling GET https://www.googleapis.com/plus/v1/people/me?key=AIzaSyDPjvgqCcFpCD3ij-tACvPj7A62q7ML8ns: (403) Access Not Configured. Please use Google Developers Console to activate the API for your project.' in /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/io/Google_REST.php:66
+Stack trace:
+#0 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/io/Google_REST.php(36): Google_REST::decodeHttpResponse(Object(Google_HttpRequest))
+#1 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/service/Google_ServiceResource.php(186): Google_REST::execute(Object(Google_HttpRequest))
+#2 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/contrib/Google_PlusService.php(229): Google_ServiceResource->__call('get', Array)
+#3 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/google_login.php(34): Google_PeopleServiceResource->get('me')
+#4  in /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/io/Google_REST.php on line 66
+[14-Mar-2014 10:53:47] PHP Fatal error:  Uncaught exception 'Google_ServiceException' with message 'Error calling GET https://www.googleapis.com/plus/v1/people/me?key=AIzaSyDPjvgqCcFpCD3ij-tACvPj7A62q7ML8ns: (403) Access Not Configured. Please use Google Developers Console to activate the API for your project.' in /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/io/Google_REST.php:66
+Stack trace:
+#0 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/io/Google_REST.php(36): Google_REST::decodeHttpResponse(Object(Google_HttpRequest))
+#1 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/service/Google_ServiceResource.php(186): Google_REST::execute(Object(Google_HttpRequest))
+#2 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/contrib/Google_PlusService.php(229): Google_ServiceResource->__call('get', Array)
+#3 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/google_login.php(34): Google_PeopleServiceResource->get('me')
+#4  in /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/io/Google_REST.php on line 66
+[14-Mar-2014 10:54:21] PHP Fatal error:  Uncaught exception 'Google_ServiceException' with message 'Error calling GET https://www.googleapis.com/plus/v1/people/me?key=AIzaSyDPjvgqCcFpCD3ij-tACvPj7A62q7ML8ns: (403) Access Not Configured. Please use Google Developers Console to activate the API for your project.' in /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/io/Google_REST.php:66
+Stack trace:
+#0 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/io/Google_REST.php(36): Google_REST::decodeHttpResponse(Object(Google_HttpRequest))
+#1 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/service/Google_ServiceResource.php(186): Google_REST::execute(Object(Google_HttpRequest))
+#2 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/contrib/Google_PlusService.php(229): Google_ServiceResource->__call('get', Array)
+#3 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/google_login.php(34): Google_PeopleServiceResource->get('me')
+#4  in /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/io/Google_REST.php on line 66
+[14-Mar-2014 10:54:22] PHP Fatal error:  Uncaught exception 'Google_ServiceException' with message 'Error calling GET https://www.googleapis.com/plus/v1/people/me?key=AIzaSyDPjvgqCcFpCD3ij-tACvPj7A62q7ML8ns: (403) Access Not Configured. Please use Google Developers Console to activate the API for your project.' in /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/io/Google_REST.php:66
+Stack trace:
+#0 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/io/Google_REST.php(36): Google_REST::decodeHttpResponse(Object(Google_HttpRequest))
+#1 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/service/Google_ServiceResource.php(186): Google_REST::execute(Object(Google_HttpRequest))
+#2 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/contrib/Google_PlusService.php(229): Google_ServiceResource->__call('get', Array)
+#3 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/google_login.php(34): Google_PeopleServiceResource->get('me')
+#4  in /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/io/Google_REST.php on line 66
+[14-Mar-2014 10:55:03] PHP Fatal error:  Uncaught exception 'Google_ServiceException' with message 'Error calling GET https://www.googleapis.com/plus/v1/people/me?key=AIzaSyDPjvgqCcFpCD3ij-tACvPj7A62q7ML8ns: (403) Access Not Configured. Please use Google Developers Console to activate the API for your project.' in /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/io/Google_REST.php:66
+Stack trace:
+#0 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/io/Google_REST.php(36): Google_REST::decodeHttpResponse(Object(Google_HttpRequest))
+#1 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/service/Google_ServiceResource.php(186): Google_REST::execute(Object(Google_HttpRequest))
+#2 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/contrib/Google_PlusService.php(229): Google_ServiceResource->__call('get', Array)
+#3 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/google_login.php(34): Google_PeopleServiceResource->get('me')
+#4  in /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/io/Google_REST.php on line 66
+[14-Mar-2014 10:55:34] PHP Fatal error:  Uncaught exception 'Google_ServiceException' with message 'Error calling GET https://www.googleapis.com/plus/v1/people/me?key=AIzaSyDPjvgqCcFpCD3ij-tACvPj7A62q7ML8ns: (403) Access Not Configured. Please use Google Developers Console to activate the API for your project.' in /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/io/Google_REST.php:66
+Stack trace:
+#0 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/io/Google_REST.php(36): Google_REST::decodeHttpResponse(Object(Google_HttpRequest))
+#1 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/service/Google_ServiceResource.php(186): Google_REST::execute(Object(Google_HttpRequest))
+#2 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/contrib/Google_PlusService.php(229): Google_ServiceResource->__call('get', Array)
+#3 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/google_login.php(34): Google_PeopleServiceResource->get('me')
+#4  in /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/io/Google_REST.php on line 66
+[14-Mar-2014 10:55:38] PHP Fatal error:  Uncaught exception 'Google_ServiceException' with message 'Error calling GET https://www.googleapis.com/plus/v1/people/me?key=AIzaSyDPjvgqCcFpCD3ij-tACvPj7A62q7ML8ns: (403) Access Not Configured. Please use Google Developers Console to activate the API for your project.' in /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/io/Google_REST.php:66
+Stack trace:
+#0 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/io/Google_REST.php(36): Google_REST::decodeHttpResponse(Object(Google_HttpRequest))
+#1 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/service/Google_ServiceResource.php(186): Google_REST::execute(Object(Google_HttpRequest))
+#2 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/contrib/Google_PlusService.php(229): Google_ServiceResource->__call('get', Array)
+#3 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/google_login.php(34): Google_PeopleServiceResource->get('me')
+#4  in /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/io/Google_REST.php on line 66
+[14-Mar-2014 10:57:04] PHP Fatal error:  Uncaught exception 'Google_ServiceException' with message 'Error calling GET https://www.googleapis.com/plus/v1/people/me?key=AIzaSyDPjvgqCcFpCD3ij-tACvPj7A62q7ML8ns: (403) Access Not Configured. Please use Google Developers Console to activate the API for your project.' in /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/io/Google_REST.php:66
+Stack trace:
+#0 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/io/Google_REST.php(36): Google_REST::decodeHttpResponse(Object(Google_HttpRequest))
+#1 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/service/Google_ServiceResource.php(186): Google_REST::execute(Object(Google_HttpRequest))
+#2 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/contrib/Google_PlusService.php(229): Google_ServiceResource->__call('get', Array)
+#3 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/google_login.php(34): Google_PeopleServiceResource->get('me')
+#4  in /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/io/Google_REST.php on line 66
+[14-Mar-2014 10:57:05] PHP Fatal error:  Uncaught exception 'Google_ServiceException' with message 'Error calling GET https://www.googleapis.com/plus/v1/people/me?key=AIzaSyDPjvgqCcFpCD3ij-tACvPj7A62q7ML8ns: (403) Access Not Configured. Please use Google Developers Console to activate the API for your project.' in /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/io/Google_REST.php:66
+Stack trace:
+#0 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/io/Google_REST.php(36): Google_REST::decodeHttpResponse(Object(Google_HttpRequest))
+#1 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/service/Google_ServiceResource.php(186): Google_REST::execute(Object(Google_HttpRequest))
+#2 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/contrib/Google_PlusService.php(229): Google_ServiceResource->__call('get', Array)
+#3 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/google_login.php(34): Google_PeopleServiceResource->get('me')
+#4  in /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/io/Google_REST.php on line 66
+[14-Mar-2014 11:34:00] PHP Fatal error:  Uncaught exception 'Google_ServiceException' with message 'Error calling GET https://www.googleapis.com/plus/v1/people/me: (503) Backend Error' in /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/io/Google_REST.php:66
+Stack trace:
+#0 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/io/Google_REST.php(36): Google_REST::decodeHttpResponse(Object(Google_HttpRequest))
+#1 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/service/Google_ServiceResource.php(186): Google_REST::execute(Object(Google_HttpRequest))
+#2 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/contrib/Google_PlusService.php(229): Google_ServiceResource->__call('get', Array)
+#3 /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/google_login.php(34): Google_PeopleServiceResource->get('me')
+#4 {main}
+  thrown in /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/src/io/Google_REST.php on line 66
+[14-Mar-2014 06:56:28] PHP Parse error:  syntax error, unexpected ')' in /home1/sausuman/public_html/testserver1/teecircle/facebook_twitter_login/google_login.php on line 52
+[14-Mar-2014 08:36:38] CSRF state token does not match one provided.

@@ -1,0 +1,1057 @@
+[18-Mar-2014 03:40:19] DEBUG - HTTP request details
+[18-Mar-2014 03:40:19] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_request_token
+    [code] => 200
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_callback=http%3A%2F%2Fmaestros-ites.com%2Ftestserver1%2Fteecircle%2Fyahoo%2F%3Fin_popup&oauth_consumer_key=dj0yJmk9VnBsQ1BSNk00Z3FKJmQ9WVdrOWFuWlFVR0pwTXpBbWNHbzlNVFExTmpnMk9UVTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1jMQ--&oauth_nonce=02357743809f48dda4102e43cb798925&oauth_signature=t8arCpCnwqwGlHNNHdz7QtRWKt0%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1395132019&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Tue, 18 Mar 2014 08:40:19 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Accept-Encoding
+            [Connection] => close
+            [Transfer-Encoding] => chunked
+            [Content-Type] => text/plain;charset=UTF-8
+            [Cache-Control] => private
+        )
+
+    [responseBody] => oauth_token=nqpw6aw&oauth_token_secret=6f569776a68e88095d1d762ce49375097c3fb0c7&oauth_expires_in=3600&xoauth_request_auth_url=https%3A%2F%2Fapi.login.yahoo.com%2Foauth%2Fv2%2Frequest_auth%3Foauth_token%3Dnqpw6aw&oauth_callback_confirmed=true
+)
+
+[18-Mar-2014 03:40:36] DEBUG - HTTP request details
+[18-Mar-2014 03:40:36] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_token
+    [code] => 200
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_consumer_key=dj0yJmk9VnBsQ1BSNk00Z3FKJmQ9WVdrOWFuWlFVR0pwTXpBbWNHbzlNVFExTmpnMk9UVTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1jMQ--&oauth_nonce=f318f23d7719bb399deb403cddc18049&oauth_signature=bYYr9UAukJLFaNDqYU1kX5bytcI%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1395132036&oauth_token=nqpw6aw&oauth_verifier=3p9sus&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Tue, 18 Mar 2014 08:40:36 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Accept-Encoding
+            [Connection] => close
+            [Transfer-Encoding] => chunked
+            [Content-Type] => text/plain;charset=UTF-8
+            [Cache-Control] => private
+        )
+
+    [responseBody] => oauth_token=A%3Dz6UzfBPpoB4_yKJd0Hd0b1AMquBNswGSwOndgLpu6RJRrsJENdVi6zCIuJ_5cRQCnYhWVZDugX.NzNzkHHD6Jnz_a0aCuhnzUzxxiH7WlRpsIxSNhWv9G1GvLSq1OP962Mv_Jxgltw.KsbFvnScxU6FHRl0DgX6hT.xARYdcsCEaFwS8RBmx_5vzQ_h_rnQaBPITKdOWYnCGyYwqhJ96sYyOVDIEafR3vgUoalcPkPwBCDZRXlrw3uhrGN2iAp1uwNW3eZeghIsy6pNKuqEvbX4aFIYWPzbVgMPyd4DcQId2I33Nn1ow9jD7amf9RCwCPvMlpcXNWI4d_rdn0qHgC.hHdJh4kPVAet8WO4e8dk3F615CnyIF8FeaV.VdkvKAKQcvfxupYSKoGXr0p2L_njvGL_LDHnMu0tE6fA8.1Gte7yp8ySXJHEOqF9jLiMeTEbYx4ze3_EX.CV89o2Yo0H5rCW_xPKcu5SNL0oVd3s494MGTdgsqf4taiLASSBRudkmJUmt.yK.80RiMpIhiDwNn5Murwcibik9XHtotWbaMZAHU2I1PEOmrwMfb5tKTvftemtjx2u8E2Tu0anoWTrHwxZFuMBlKc4d5plk3ZADjSwvar6dKMRxGHNroExPswD3T6ASTHcOftyLGTiH233eULlkj7QuUnVe3cOfwPx9PNEXfczfHSp1ppWakAIHPD1D_M0EQCgtB2EMI2oD1FafnPOjG6w0RpnQe3O2hQQgKaUNOKH.BwwlU6BBNDAVYPZ5DxAO1UrulytXKrxrPsL54o0e1kWDZ.d.O4S7xbTRL3T4d4clB1y44lNObXayvKhjqbGlz8f0Zkdhs6Ekm7npV4WWCZVYe7e7Dm589bF7P5SMAdqYTvcQ1La.R6vQFaZedAYuM012f9akN9QA-&oauth_token_secret=e9775f5f9468f798cee8e6f209173a78fe21862a&oauth_expires_in=3600&oauth_session_handle=AIMGKFNeLzCYMjzW.uecZB9sMwsJ3S_2lKS_HJx.bI7KO6TKgH9Zh4nDy4rTojVqQpTn87c9&oauth_authorization_expires_in=752351611&xoauth_yahoo_guid=QBOR5J7BHIPF6UMLL7EOOPNFCI
+)
+
+[18-Mar-2014 03:40:36] DEBUG - AT expires in 3600; ASH expires in 752351611
+[18-Mar-2014 03:40:37] DEBUG - OAuth AT: A=z6UzfBPpoB4_yKJd0Hd0b1AMquBNswGSwOndgLpu6RJRrsJENdVi6zCIuJ_5cRQCnYhWVZDugX.NzNzkHHD6Jnz_a0aCuhnzUzxxiH7WlRpsIxSNhWv9G1GvLSq1OP962Mv_Jxgltw.KsbFvnScxU6FHRl0DgX6hT.xARYdcsCEaFwS8RBmx_5vzQ_h_rnQaBPITKdOWYnCGyYwqhJ96sYyOVDIEafR3vgUoalcPkPwBCDZRXlrw3uhrGN2iAp1uwNW3eZeghIsy6pNKuqEvbX4aFIYWPzbVgMPyd4DcQId2I33Nn1ow9jD7amf9RCwCPvMlpcXNWI4d_rdn0qHgC.hHdJh4kPVAet8WO4e8dk3F615CnyIF8FeaV.VdkvKAKQcvfxupYSKoGXr0p2L_njvGL_LDHnMu0tE6fA8.1Gte7yp8ySXJHEOqF9jLiMeTEbYx4ze3_EX.CV89o2Yo0H5rCW_xPKcu5SNL0oVd3s494MGTdgsqf4taiLASSBRudkmJUmt.yK.80RiMpIhiDwNn5Murwcibik9XHtotWbaMZAHU2I1PEOmrwMfb5tKTvftemtjx2u8E2Tu0anoWTrHwxZFuMBlKc4d5plk3ZADjSwvar6dKMRxGHNroExPswD3T6ASTHcOftyLGTiH233eULlkj7QuUnVe3cOfwPx9PNEXfczfHSp1ppWakAIHPD1D_M0EQCgtB2EMI2oD1FafnPOjG6w0RpnQe3O2hQQgKaUNOKH.BwwlU6BBNDAVYPZ5DxAO1UrulytXKrxrPsL54o0e1kWDZ.d.O4S7xbTRL3T4d4clB1y44lNObXayvKhjqbGlz8f0Zkdhs6Ekm7npV4WWCZVYe7e7Dm589bF7P5SMAdqYTvcQ1La.R6vQFaZedAYuM012f9akN9QA-   ATS: e9775f5f9468f798cee8e6f209173a78fe21862a
+[18-Mar-2014 03:40:37] DEBUG - AT Expires in: 3599
+[18-Mar-2014 03:40:37] DEBUG - HTTP request details
+[18-Mar-2014 03:40:37] DEBUG OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/QBOR5J7BHIPF6UMLL7EOOPNFCI/profile
+    [code] => 200
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth realm="yahooapis.com",oauth_version="1.0",oauth_nonce="c69aff543fc13d2f4c705e05b145290b",oauth_timestamp="1395132037",oauth_consumer_key="dj0yJmk9VnBsQ1BSNk00Z3FKJmQ9WVdrOWFuWlFVR0pwTXpBbWNHbzlNVFExTmpnMk9UVTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1jMQ--",oauth_token="A%3Dz6UzfBPpoB4_yKJd0Hd0b1AMquBNswGSwOndgLpu6RJRrsJENdVi6zCIuJ_5cRQCnYhWVZDugX.NzNzkHHD6Jnz_a0aCuhnzUzxxiH7WlRpsIxSNhWv9G1GvLSq1OP962Mv_Jxgltw.KsbFvnScxU6FHRl0DgX6hT.xARYdcsCEaFwS8RBmx_5vzQ_h_rnQaBPITKdOWYnCGyYwqhJ96sYyOVDIEafR3vgUoalcPkPwBCDZRXlrw3uhrGN2iAp1uwNW3eZeghIsy6pNKuqEvbX4aFIYWPzbVgMPyd4DcQId2I33Nn1ow9jD7amf9RCwCPvMlpcXNWI4d_rdn0qHgC.hHdJh4kPVAet8WO4e8dk3F615CnyIF8FeaV.VdkvKAKQcvfxupYSKoGXr0p2L_njvGL_LDHnMu0tE6fA8.1Gte7yp8ySXJHEOqF9jLiMeTEbYx4ze3_EX.CV89o2Yo0H5rCW_xPKcu5SNL0oVd3s494MGTdgsqf4taiLASSBRudkmJUmt.yK.80RiMpIhiDwNn5Murwcibik9XHtotWbaMZAHU2I1PEOmrwMfb5tKTvftemtjx2u8E2Tu0anoWTrHwxZFuMBlKc4d5plk3ZADjSwvar6dKMRxGHNroExPswD3T6ASTHcOftyLGTiH233eULlkj7QuUnVe3cOfwPx9PNEXfczfHSp1ppWakAIHPD1D_M0EQCgtB2EMI2oD1FafnPOjG6w0RpnQe3O2hQQgKaUNOKH.BwwlU6BBNDAVYPZ5DxAO1UrulytXKrxrPsL54o0e1kWDZ.d.O4S7xbTRL3T4d4clB1y44lNObXayvKhjqbGlz8f0Zkdhs6Ekm7npV4WWCZVYe7e7Dm589bF7P5SMAdqYTvcQ1La.R6vQFaZedAYuM012f9akN9QA-",oauth_signature_method="HMAC-SHA1",oauth_signature="jHixTH1Yrq8diM1mNNh%2F7kA5jCo%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Tue, 18 Mar 2014 08:40:37 GMT
+            [Cache-Control] => private
+            [Vary] => Authorization,Accept-Encoding
+            [X-Yahoo-Social-Host] => ws105.socdir.gq1.yahoo.com
+            [Content-Type] => application/json; charset=utf-8
+            [Content-Encoding] => gzip
+            [Age] => 0
+            [Transfer-Encoding] => chunked
+            [Connection] => keep-alive
+            [Via] => http/1.1 r08.ycpi.dxs.yahoo.net (ApacheTrafficServer/4.0.2 [cMsSf ])
+            [Server] => ATS
+        )
+
+    [responseBody] => {"profile":{"uri":"http://social.yahooapis.com/v1/user/QBOR5J7BHIPF6UMLL7EOOPNFCI/profile","guid":"QBOR5J7BHIPF6UMLL7EOOPNFCI","addresses":[{"city":"","country":"IN","current":true,"id":4,"postalCode":"","state":"","street":"","type":"HOME"},{"city":"","country":"IN","current":true,"id":5,"postalCode":"","state":"","street":"","type":"WORK"}],"bdRestricted":true,"created":"2014-03-18T08:40:37Z","emails":[{"handle":"candeobubai@gmail.com","id":1,"primary":true,"type":"HOME"},{"handle":"candeobubai@yahoo.com","id":2,"type":"HOME"}],"familyName":"Dey","givenName":"Bubai","image":{"height":192,"imageUrl":"http://l.yimg.com/dh/ap/social/profile/profile_b192.png","size":"192x192","width":192},"lang":"en-US","memberSince":"2013-05-06T10:40:04Z","nickname":"Bubai","phones":[{"id":3,"number":"91-9564832599","type":"MOBILE"}],"profileUrl":"http://profile.yahoo.com/QBOR5J7BHIPF6UMLL7EOOPNFCI","timeZone":"America/Los_Angeles","isConnected":true}}
+)
+
+[18-Mar-2014 03:40:52] DEBUG - HTTP request details
+[18-Mar-2014 03:40:52] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_request_token
+    [code] => 200
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_callback=http%3A%2F%2Fmaestros-ites.com%2Ftestserver1%2Fteecircle%2Fyahoo%2F%3Flogout%3Fin_popup&oauth_consumer_key=dj0yJmk9VnBsQ1BSNk00Z3FKJmQ9WVdrOWFuWlFVR0pwTXpBbWNHbzlNVFExTmpnMk9UVTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1jMQ--&oauth_nonce=73c6b7c4c088961b21c0cca31620c7fe&oauth_signature=F2mDkUW6gDW6gHJnNL0YFdBqjzg%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1395132052&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Tue, 18 Mar 2014 08:40:52 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Accept-Encoding
+            [Connection] => close
+            [Transfer-Encoding] => chunked
+            [Content-Type] => text/plain;charset=UTF-8
+            [Cache-Control] => private
+        )
+
+    [responseBody] => oauth_token=n36ztkn&oauth_token_secret=27024399985d2eaa2d6daef59781016bb145fcaa&oauth_expires_in=3600&xoauth_request_auth_url=https%3A%2F%2Fapi.login.yahoo.com%2Foauth%2Fv2%2Frequest_auth%3Foauth_token%3Dn36ztkn&oauth_callback_confirmed=true
+)
+
+[18-Mar-2014 03:40:53] DEBUG - HTTP request details
+[18-Mar-2014 03:40:53] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_token
+    [code] => 401
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_consumer_key=dj0yJmk9VnBsQ1BSNk00Z3FKJmQ9WVdrOWFuWlFVR0pwTXpBbWNHbzlNVFExTmpnMk9UVTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1jMQ--&oauth_nonce=e7e502e3570f88cc8653c93f7ce6fa05&oauth_signature=BUSgZuKyTu%2BQpYCFc678zCuhUL8%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1395132053&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Tue, 18 Mar 2014 08:40:53 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [WWW-Authenticate] => OAuth oauth_problem=parameter_absent&oauth_parameters_absent=oauth_token
+            [Connection] => close
+            [Transfer-Encoding] => chunked
+            [Content-Type] => application/x-www-form-urlencoded
+            [Cache-Control] => private
+        )
+
+    [responseBody] => oauth_problem=parameter_absent&oauth_parameters_absent=oauth_token
+)
+
+[18-Mar-2014 03:40:53] ERROR - Failed to fetch access token: parameter_absent
+[18-Mar-2014 03:40:53] INFO - Failed to fetch access token, retrying
+[18-Mar-2014 03:40:54] DEBUG - HTTP request details
+[18-Mar-2014 03:40:54] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_token
+    [code] => 401
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_consumer_key=dj0yJmk9VnBsQ1BSNk00Z3FKJmQ9WVdrOWFuWlFVR0pwTXpBbWNHbzlNVFExTmpnMk9UVTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1jMQ--&oauth_nonce=eee339a16f948f46c2421178d6595aa8&oauth_signature=BBx1KUngFMRKpRe%2BuEcOB%2BHDFs4%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1395132053&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Tue, 18 Mar 2014 08:40:54 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [WWW-Authenticate] => OAuth oauth_problem=parameter_absent&oauth_parameters_absent=oauth_token
+            [Connection] => close
+            [Transfer-Encoding] => chunked
+            [Content-Type] => application/x-www-form-urlencoded
+            [Cache-Control] => private
+        )
+
+    [responseBody] => oauth_problem=parameter_absent&oauth_parameters_absent=oauth_token
+)
+
+[18-Mar-2014 03:40:54] ERROR - Failed to fetch access token: parameter_absent
+[18-Mar-2014 03:40:54] DEBUG - HTTP request details
+[18-Mar-2014 03:40:54] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_request_token
+    [code] => 200
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_callback=http%3A%2F%2Fmaestros-ites.com%2Ftestserver1%2Fteecircle%2Fyahoo%2Findex.php%3Fin_popup&oauth_consumer_key=dj0yJmk9VnBsQ1BSNk00Z3FKJmQ9WVdrOWFuWlFVR0pwTXpBbWNHbzlNVFExTmpnMk9UVTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1jMQ--&oauth_nonce=5350607232a06d8c3257d9666e51de01&oauth_signature=33u4pPGo6gJSxh3smAIcanpHlwU%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1395132054&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Tue, 18 Mar 2014 08:40:54 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Accept-Encoding
+            [Connection] => close
+            [Transfer-Encoding] => chunked
+            [Content-Type] => text/plain;charset=UTF-8
+            [Cache-Control] => private
+        )
+
+    [responseBody] => oauth_token=nqhgkf7&oauth_token_secret=22f7812e0da2aec1f4359e75b4b98f8d6d0e81fb&oauth_expires_in=3600&xoauth_request_auth_url=https%3A%2F%2Fapi.login.yahoo.com%2Foauth%2Fv2%2Frequest_auth%3Foauth_token%3Dnqhgkf7&oauth_callback_confirmed=true
+)
+
+[18-Mar-2014 03:40:57] DEBUG - HTTP request details
+[18-Mar-2014 03:40:57] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_token
+    [code] => 401
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_consumer_key=dj0yJmk9VnBsQ1BSNk00Z3FKJmQ9WVdrOWFuWlFVR0pwTXpBbWNHbzlNVFExTmpnMk9UVTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1jMQ--&oauth_nonce=4833d35df4621dac6506c7f265293799&oauth_signature=OOJ%2FJbVwyIT7hkv8wi7NX0a9%2FFI%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1395132056&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Tue, 18 Mar 2014 08:40:57 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [WWW-Authenticate] => OAuth oauth_problem=parameter_absent&oauth_parameters_absent=oauth_token
+            [Connection] => close
+            [Transfer-Encoding] => chunked
+            [Content-Type] => application/x-www-form-urlencoded
+            [Cache-Control] => private
+        )
+
+    [responseBody] => oauth_problem=parameter_absent&oauth_parameters_absent=oauth_token
+)
+
+[18-Mar-2014 03:40:57] ERROR - Failed to fetch access token: parameter_absent
+[18-Mar-2014 03:40:57] INFO - Failed to fetch access token, retrying
+[18-Mar-2014 03:40:57] DEBUG - HTTP request details
+[18-Mar-2014 03:40:57] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_token
+    [code] => 401
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_consumer_key=dj0yJmk9VnBsQ1BSNk00Z3FKJmQ9WVdrOWFuWlFVR0pwTXpBbWNHbzlNVFExTmpnMk9UVTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1jMQ--&oauth_nonce=6a3a06268092d88bbbbbacb4577c35aa&oauth_signature=ud4QaErFpHiZfHxJ11R1gjZC5LM%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1395132057&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Tue, 18 Mar 2014 08:40:57 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [WWW-Authenticate] => OAuth oauth_problem=parameter_absent&oauth_parameters_absent=oauth_token
+            [Connection] => close
+            [Transfer-Encoding] => chunked
+            [Content-Type] => application/x-www-form-urlencoded
+            [Cache-Control] => private
+        )
+
+    [responseBody] => oauth_problem=parameter_absent&oauth_parameters_absent=oauth_token
+)
+
+[18-Mar-2014 03:40:57] ERROR - Failed to fetch access token: parameter_absent
+[18-Mar-2014 03:40:58] DEBUG - HTTP request details
+[18-Mar-2014 03:40:58] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_request_token
+    [code] => 200
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_callback=http%3A%2F%2Fmaestros-ites.com%2Ftestserver1%2Fteecircle%2Fyahoo%2Findex.php%3Fin_popup&oauth_consumer_key=dj0yJmk9VnBsQ1BSNk00Z3FKJmQ9WVdrOWFuWlFVR0pwTXpBbWNHbzlNVFExTmpnMk9UVTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1jMQ--&oauth_nonce=9c6187e4817678650f44eb0b0fb619c4&oauth_signature=doXJj1fOFvsJaSn4i1M1icIzBs4%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1395132057&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Tue, 18 Mar 2014 08:40:57 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Accept-Encoding
+            [Connection] => close
+            [Transfer-Encoding] => chunked
+            [Content-Type] => text/plain;charset=UTF-8
+            [Cache-Control] => private
+        )
+
+    [responseBody] => oauth_token=nezb2gt&oauth_token_secret=77bf965537821c2d9a4c502a8f67ea1b0f5a3000&oauth_expires_in=3600&xoauth_request_auth_url=https%3A%2F%2Fapi.login.yahoo.com%2Foauth%2Fv2%2Frequest_auth%3Foauth_token%3Dnezb2gt&oauth_callback_confirmed=true
+)
+
+[18-Mar-2014 03:41:18] DEBUG - HTTP request details
+[18-Mar-2014 03:41:18] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_token
+    [code] => 401
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_consumer_key=dj0yJmk9VnBsQ1BSNk00Z3FKJmQ9WVdrOWFuWlFVR0pwTXpBbWNHbzlNVFExTmpnMk9UVTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1jMQ--&oauth_nonce=ad35382d8d08e4e50a0b0de39f221f3e&oauth_signature=ruZuJmPOkplP1BT6ElryhBHeZ%2F4%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1395132078&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Tue, 18 Mar 2014 08:41:18 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [WWW-Authenticate] => OAuth oauth_problem=parameter_absent&oauth_parameters_absent=oauth_token
+            [Connection] => close
+            [Transfer-Encoding] => chunked
+            [Content-Type] => application/x-www-form-urlencoded
+            [Cache-Control] => private
+        )
+
+    [responseBody] => oauth_problem=parameter_absent&oauth_parameters_absent=oauth_token
+)
+
+[18-Mar-2014 03:41:18] ERROR - Failed to fetch access token: parameter_absent
+[18-Mar-2014 03:41:18] INFO - Failed to fetch access token, retrying
+[18-Mar-2014 03:41:19] DEBUG - HTTP request details
+[18-Mar-2014 03:41:19] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_token
+    [code] => 401
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_consumer_key=dj0yJmk9VnBsQ1BSNk00Z3FKJmQ9WVdrOWFuWlFVR0pwTXpBbWNHbzlNVFExTmpnMk9UVTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1jMQ--&oauth_nonce=89b0b41f2a91574c4a671caaada15f2f&oauth_signature=FLlP8%2BcVyUIMO5%2Fd%2BZel0pWCgzs%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1395132079&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Tue, 18 Mar 2014 08:41:19 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [WWW-Authenticate] => OAuth oauth_problem=parameter_absent&oauth_parameters_absent=oauth_token
+            [Connection] => close
+            [Transfer-Encoding] => chunked
+            [Content-Type] => application/x-www-form-urlencoded
+            [Cache-Control] => private
+        )
+
+    [responseBody] => oauth_problem=parameter_absent&oauth_parameters_absent=oauth_token
+)
+
+[18-Mar-2014 03:41:19] ERROR - Failed to fetch access token: parameter_absent
+[18-Mar-2014 03:41:19] DEBUG - HTTP request details
+[18-Mar-2014 03:41:19] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_request_token
+    [code] => 200
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_callback=http%3A%2F%2Fmaestros-ites.com%2Ftestserver1%2Fteecircle%2Fyahoo%2Findex.php%3Fin_popup&oauth_consumer_key=dj0yJmk9VnBsQ1BSNk00Z3FKJmQ9WVdrOWFuWlFVR0pwTXpBbWNHbzlNVFExTmpnMk9UVTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1jMQ--&oauth_nonce=6431b40d859a8950b1c721ac3658736c&oauth_signature=grQFYKj2VRy4ZZgguD%2By3dBSyJ4%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1395132079&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Tue, 18 Mar 2014 08:41:19 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Accept-Encoding
+            [Connection] => close
+            [Transfer-Encoding] => chunked
+            [Content-Type] => text/plain;charset=UTF-8
+            [Cache-Control] => private
+        )
+
+    [responseBody] => oauth_token=n7qshsp&oauth_token_secret=9db06a27f5c77d6a1090fb9c94cce57f911009c6&oauth_expires_in=3600&xoauth_request_auth_url=https%3A%2F%2Fapi.login.yahoo.com%2Foauth%2Fv2%2Frequest_auth%3Foauth_token%3Dn7qshsp&oauth_callback_confirmed=true
+)
+
+[18-Mar-2014 03:41:28] DEBUG - HTTP request details
+[18-Mar-2014 03:41:28] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_token
+    [code] => 401
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_consumer_key=dj0yJmk9VnBsQ1BSNk00Z3FKJmQ9WVdrOWFuWlFVR0pwTXpBbWNHbzlNVFExTmpnMk9UVTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1jMQ--&oauth_nonce=b6bedb427ef8979b3266cc11e6326f52&oauth_signature=l5tZqWLXDQAbZYNz%2BN21iWvcJGc%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1395132087&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Tue, 18 Mar 2014 08:41:28 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [WWW-Authenticate] => OAuth oauth_problem=parameter_absent&oauth_parameters_absent=oauth_token
+            [Connection] => close
+            [Transfer-Encoding] => chunked
+            [Content-Type] => application/x-www-form-urlencoded
+            [Cache-Control] => private
+        )
+
+    [responseBody] => oauth_problem=parameter_absent&oauth_parameters_absent=oauth_token
+)
+
+[18-Mar-2014 03:41:28] ERROR - Failed to fetch access token: parameter_absent
+[18-Mar-2014 03:41:28] INFO - Failed to fetch access token, retrying
+[18-Mar-2014 03:41:28] DEBUG - HTTP request details
+[18-Mar-2014 03:41:28] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_token
+    [code] => 401
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_consumer_key=dj0yJmk9VnBsQ1BSNk00Z3FKJmQ9WVdrOWFuWlFVR0pwTXpBbWNHbzlNVFExTmpnMk9UVTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1jMQ--&oauth_nonce=edbfbe1422ecba77eda3b501a82a5df9&oauth_signature=STDib%2B0ZDzZBY4i1cxN9iRpBUxY%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1395132088&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Tue, 18 Mar 2014 08:41:28 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [WWW-Authenticate] => OAuth oauth_problem=parameter_absent&oauth_parameters_absent=oauth_token
+            [Connection] => close
+            [Transfer-Encoding] => chunked
+            [Content-Type] => application/x-www-form-urlencoded
+            [Cache-Control] => private
+        )
+
+    [responseBody] => oauth_problem=parameter_absent&oauth_parameters_absent=oauth_token
+)
+
+[18-Mar-2014 03:41:28] ERROR - Failed to fetch access token: parameter_absent
+[18-Mar-2014 03:41:28] DEBUG - HTTP request details
+[18-Mar-2014 03:41:28] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_request_token
+    [code] => 200
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_callback=http%3A%2F%2Fmaestros-ites.com%2Ftestserver1%2Fteecircle%2Fyahoo%2Findex.php%3Fin_popup&oauth_consumer_key=dj0yJmk9VnBsQ1BSNk00Z3FKJmQ9WVdrOWFuWlFVR0pwTXpBbWNHbzlNVFExTmpnMk9UVTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1jMQ--&oauth_nonce=cabac9008bb283e7bd17569572448b0a&oauth_signature=N7MnbqXaFGiLZoY%2FrVstlV0TpPs%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1395132088&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Tue, 18 Mar 2014 08:41:28 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Accept-Encoding
+            [Connection] => close
+            [Transfer-Encoding] => chunked
+            [Content-Type] => text/plain;charset=UTF-8
+            [Cache-Control] => private
+        )
+
+    [responseBody] => oauth_token=nttmamz&oauth_token_secret=e7f2ac0f78671a613b2f98989a27bcbc1a66972b&oauth_expires_in=3600&xoauth_request_auth_url=https%3A%2F%2Fapi.login.yahoo.com%2Foauth%2Fv2%2Frequest_auth%3Foauth_token%3Dnttmamz&oauth_callback_confirmed=true
+)
+
+[18-Mar-2014 03:41:47] DEBUG - HTTP request details
+[18-Mar-2014 03:41:47] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_token
+    [code] => 401
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_consumer_key=dj0yJmk9VnBsQ1BSNk00Z3FKJmQ9WVdrOWFuWlFVR0pwTXpBbWNHbzlNVFExTmpnMk9UVTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1jMQ--&oauth_nonce=56520c256bfde3acb6fd9e2169439501&oauth_signature=m0%2F%2FctrBPFJqK%2FAJbWkSWFTqGBo%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1395132106&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Tue, 18 Mar 2014 08:41:47 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [WWW-Authenticate] => OAuth oauth_problem=parameter_absent&oauth_parameters_absent=oauth_token
+            [Connection] => close
+            [Transfer-Encoding] => chunked
+            [Content-Type] => application/x-www-form-urlencoded
+            [Cache-Control] => private
+        )
+
+    [responseBody] => oauth_problem=parameter_absent&oauth_parameters_absent=oauth_token
+)
+
+[18-Mar-2014 03:41:47] ERROR - Failed to fetch access token: parameter_absent
+[18-Mar-2014 03:41:47] INFO - Failed to fetch access token, retrying
+[18-Mar-2014 03:41:47] DEBUG - HTTP request details
+[18-Mar-2014 03:41:47] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_token
+    [code] => 401
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_consumer_key=dj0yJmk9VnBsQ1BSNk00Z3FKJmQ9WVdrOWFuWlFVR0pwTXpBbWNHbzlNVFExTmpnMk9UVTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1jMQ--&oauth_nonce=abb5ec2187ce87a167127cdbf181f728&oauth_signature=5rQAtr2YWHzgI7P%2BMVCz1qIg3Bw%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1395132107&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Tue, 18 Mar 2014 08:41:47 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [WWW-Authenticate] => OAuth oauth_problem=parameter_absent&oauth_parameters_absent=oauth_token
+            [Connection] => close
+            [Transfer-Encoding] => chunked
+            [Content-Type] => application/x-www-form-urlencoded
+            [Cache-Control] => private
+        )
+
+    [responseBody] => oauth_problem=parameter_absent&oauth_parameters_absent=oauth_token
+)
+
+[18-Mar-2014 03:41:47] ERROR - Failed to fetch access token: parameter_absent
+[18-Mar-2014 03:41:47] DEBUG - HTTP request details
+[18-Mar-2014 03:41:47] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_request_token
+    [code] => 200
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_callback=http%3A%2F%2Fmaestros-ites.com%2Ftestserver1%2Fteecircle%2Fyahoo%2Findex.php%3Fin_popup&oauth_consumer_key=dj0yJmk9VnBsQ1BSNk00Z3FKJmQ9WVdrOWFuWlFVR0pwTXpBbWNHbzlNVFExTmpnMk9UVTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1jMQ--&oauth_nonce=1cede75f84e95b4552093667134bdc9e&oauth_signature=kiFXYZFuPhmPvk3Pn4g3iPlePgg%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1395132107&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Tue, 18 Mar 2014 08:41:47 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Accept-Encoding
+            [Connection] => close
+            [Transfer-Encoding] => chunked
+            [Content-Type] => text/plain;charset=UTF-8
+            [Cache-Control] => private
+        )
+
+    [responseBody] => oauth_token=np8fdgz&oauth_token_secret=0bdbc5fbe2b8d64a091fa0408917059bd07dc2fe&oauth_expires_in=3600&xoauth_request_auth_url=https%3A%2F%2Fapi.login.yahoo.com%2Foauth%2Fv2%2Frequest_auth%3Foauth_token%3Dnp8fdgz&oauth_callback_confirmed=true
+)
+
+[18-Mar-2014 03:42:04] DEBUG - HTTP request details
+[18-Mar-2014 03:42:04] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_token
+    [code] => 200
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_consumer_key=dj0yJmk9VnBsQ1BSNk00Z3FKJmQ9WVdrOWFuWlFVR0pwTXpBbWNHbzlNVFExTmpnMk9UVTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1jMQ--&oauth_nonce=3d50970d42f4866ae537a06f0cdbab5e&oauth_signature=eNbZXd9bDdJHzEyn4qSwtrU5LtI%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1395132124&oauth_token=np8fdgz&oauth_verifier=gr78aj&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Tue, 18 Mar 2014 08:42:04 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Accept-Encoding
+            [Connection] => close
+            [Transfer-Encoding] => chunked
+            [Content-Type] => text/plain;charset=UTF-8
+            [Cache-Control] => private
+        )
+
+    [responseBody] => oauth_token=A%3D7uOo273msl28w7t4zybZZ3eLdvOrKGc11zHGZE1YOt3FrV2jiZjN1GYIP61eUWfGXfod3FPpmnyM0f1gveZTst3GYwfeo00TbGV8GC0WtyZZJoTVqCCoqhabn9GhgJqy7nnL6ImhXSd_I.bVIYAx9sSt4dDOW46I4gJ3kRZePfxcniKTOgtm51DUAJv2pf.Yg6QDiMSGrNMreeq1H4PiKIYmgDmfXDZJyONzqdsCk7xSZcZVKFs5itGTvPWPUsiS8SYuEMcxmCwvbDfE6ML5QTnLIbpsGCxmMCxh37JfdAu4D3WAhrLtk4MmgLJTb0TM6065xmr9rUPfW351aPXMV9xORjcfDPLb_rhpg6crnT.oU8hxSEFSnE1LN4vHxXbH3odxXL69I0tk15sSpnx6w8ncF0hc94ujSec.14HhlbLYrX0EIQCeipLvGOy5C95de.k.KCEihvBhvn2L.V0uo80J6Dqe2Xrg4HSdL2HnHhwUvIQl0gmqUKGxQ42roXTCUjaw5uJ_bfQpIg_H9TwNL0sxQgP2VRQVBtMXWE8uU1w0fo_mmkm0.HsiLtHgsoTFfnTqfFziB_oIKrSmF0ZU5h.TaMw.qdtY2ZFGw6Z9kmjh2NdeEebRjtl1i4yXP0aHuJB_0wVZwOxd4.L1u0SK4nuMsYdn8u5wLmujmWy08G42US4J5q4VTz3tKP0qN.KoV.e4bRGclR4o0ECYhQBz57v6qk384pn5a8NHIBJZ76UdTfu8O9D4Hjw1ECxO8fePebrx0jkGbmLIdkX..T5s416_5_A_uoBCj0VrPQ9G98mEvDgEZ6.TSk1YykoC7ojH7RjudDwo148vOLWzbIuA97KJoPyT70vIUFPXcOtwpxisc9yhktXnCoezMypuKVxmYhtJmsUqrTBiMRTxT03B5PXZcG6ZJyo.HMKYzO8a.wf0gQ--&oauth_token_secret=d913c2457e67a8ab9e7fcdb62dc9f4b792c04e37&oauth_expires_in=3600&oauth_session_handle=ANsGKFMRhojgnnxWPBDtx3VOCupO3S_2lKS_HJx.bI7KO6TKgH9Zh4nDy4rTojVqQpTn87c9&oauth_authorization_expires_in=752351523&xoauth_yahoo_guid=QBOR5J7BHIPF6UMLL7EOOPNFCI
+)
+
+[18-Mar-2014 03:42:04] DEBUG - AT expires in 3600; ASH expires in 752351523
+[18-Mar-2014 03:42:05] DEBUG - OAuth AT: A=7uOo273msl28w7t4zybZZ3eLdvOrKGc11zHGZE1YOt3FrV2jiZjN1GYIP61eUWfGXfod3FPpmnyM0f1gveZTst3GYwfeo00TbGV8GC0WtyZZJoTVqCCoqhabn9GhgJqy7nnL6ImhXSd_I.bVIYAx9sSt4dDOW46I4gJ3kRZePfxcniKTOgtm51DUAJv2pf.Yg6QDiMSGrNMreeq1H4PiKIYmgDmfXDZJyONzqdsCk7xSZcZVKFs5itGTvPWPUsiS8SYuEMcxmCwvbDfE6ML5QTnLIbpsGCxmMCxh37JfdAu4D3WAhrLtk4MmgLJTb0TM6065xmr9rUPfW351aPXMV9xORjcfDPLb_rhpg6crnT.oU8hxSEFSnE1LN4vHxXbH3odxXL69I0tk15sSpnx6w8ncF0hc94ujSec.14HhlbLYrX0EIQCeipLvGOy5C95de.k.KCEihvBhvn2L.V0uo80J6Dqe2Xrg4HSdL2HnHhwUvIQl0gmqUKGxQ42roXTCUjaw5uJ_bfQpIg_H9TwNL0sxQgP2VRQVBtMXWE8uU1w0fo_mmkm0.HsiLtHgsoTFfnTqfFziB_oIKrSmF0ZU5h.TaMw.qdtY2ZFGw6Z9kmjh2NdeEebRjtl1i4yXP0aHuJB_0wVZwOxd4.L1u0SK4nuMsYdn8u5wLmujmWy08G42US4J5q4VTz3tKP0qN.KoV.e4bRGclR4o0ECYhQBz57v6qk384pn5a8NHIBJZ76UdTfu8O9D4Hjw1ECxO8fePebrx0jkGbmLIdkX..T5s416_5_A_uoBCj0VrPQ9G98mEvDgEZ6.TSk1YykoC7ojH7RjudDwo148vOLWzbIuA97KJoPyT70vIUFPXcOtwpxisc9yhktXnCoezMypuKVxmYhtJmsUqrTBiMRTxT03B5PXZcG6ZJyo.HMKYzO8a.wf0gQ--   ATS: d913c2457e67a8ab9e7fcdb62dc9f4b792c04e37
+[18-Mar-2014 03:42:05] DEBUG - AT Expires in: 3599
+[18-Mar-2014 03:42:05] DEBUG - HTTP request details
+[18-Mar-2014 03:42:05] DEBUG OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/QBOR5J7BHIPF6UMLL7EOOPNFCI/profile
+    [code] => 200
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth realm="yahooapis.com",oauth_version="1.0",oauth_nonce="eddc052953427da061e5f81f48d750fa",oauth_timestamp="1395132125",oauth_consumer_key="dj0yJmk9VnBsQ1BSNk00Z3FKJmQ9WVdrOWFuWlFVR0pwTXpBbWNHbzlNVFExTmpnMk9UVTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1jMQ--",oauth_token="A%3D7uOo273msl28w7t4zybZZ3eLdvOrKGc11zHGZE1YOt3FrV2jiZjN1GYIP61eUWfGXfod3FPpmnyM0f1gveZTst3GYwfeo00TbGV8GC0WtyZZJoTVqCCoqhabn9GhgJqy7nnL6ImhXSd_I.bVIYAx9sSt4dDOW46I4gJ3kRZePfxcniKTOgtm51DUAJv2pf.Yg6QDiMSGrNMreeq1H4PiKIYmgDmfXDZJyONzqdsCk7xSZcZVKFs5itGTvPWPUsiS8SYuEMcxmCwvbDfE6ML5QTnLIbpsGCxmMCxh37JfdAu4D3WAhrLtk4MmgLJTb0TM6065xmr9rUPfW351aPXMV9xORjcfDPLb_rhpg6crnT.oU8hxSEFSnE1LN4vHxXbH3odxXL69I0tk15sSpnx6w8ncF0hc94ujSec.14HhlbLYrX0EIQCeipLvGOy5C95de.k.KCEihvBhvn2L.V0uo80J6Dqe2Xrg4HSdL2HnHhwUvIQl0gmqUKGxQ42roXTCUjaw5uJ_bfQpIg_H9TwNL0sxQgP2VRQVBtMXWE8uU1w0fo_mmkm0.HsiLtHgsoTFfnTqfFziB_oIKrSmF0ZU5h.TaMw.qdtY2ZFGw6Z9kmjh2NdeEebRjtl1i4yXP0aHuJB_0wVZwOxd4.L1u0SK4nuMsYdn8u5wLmujmWy08G42US4J5q4VTz3tKP0qN.KoV.e4bRGclR4o0ECYhQBz57v6qk384pn5a8NHIBJZ76UdTfu8O9D4Hjw1ECxO8fePebrx0jkGbmLIdkX..T5s416_5_A_uoBCj0VrPQ9G98mEvDgEZ6.TSk1YykoC7ojH7RjudDwo148vOLWzbIuA97KJoPyT70vIUFPXcOtwpxisc9yhktXnCoezMypuKVxmYhtJmsUqrTBiMRTxT03B5PXZcG6ZJyo.HMKYzO8a.wf0gQ--",oauth_signature_method="HMAC-SHA1",oauth_signature="VdznisBUI606qSXBhaAzBIhIrOo%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Tue, 18 Mar 2014 08:42:05 GMT
+            [Cache-Control] => private
+            [Vary] => Authorization,Accept-Encoding
+            [X-Yahoo-Social-Host] => ws119.socdir.bf1.yahoo.com
+            [Content-Type] => application/json; charset=utf-8
+            [Content-Encoding] => gzip
+            [Age] => 0
+            [Transfer-Encoding] => chunked
+            [Connection] => keep-alive
+            [Via] => http/1.1 r24.ycpi.dxs.yahoo.net (ApacheTrafficServer/4.0.2 [cMsSf ])
+            [Server] => ATS
+        )
+
+    [responseBody] => {"profile":{"uri":"http://social.yahooapis.com/v1/user/QBOR5J7BHIPF6UMLL7EOOPNFCI/profile","guid":"QBOR5J7BHIPF6UMLL7EOOPNFCI","addresses":[{"city":"","country":"IN","current":true,"id":4,"postalCode":"","state":"","street":"","type":"HOME"},{"city":"","country":"IN","current":true,"id":5,"postalCode":"","state":"","street":"","type":"WORK"}],"bdRestricted":true,"created":"2014-03-18T08:42:05Z","emails":[{"handle":"candeobubai@gmail.com","id":1,"primary":true,"type":"HOME"},{"handle":"candeobubai@yahoo.com","id":2,"type":"HOME"}],"familyName":"Dey","givenName":"Bubai","image":{"height":192,"imageUrl":"http://l.yimg.com/dh/ap/social/profile/profile_b192.png","size":"192x192","width":192},"lang":"en-US","memberSince":"2013-05-06T10:40:04Z","nickname":"Bubai","phones":[{"id":3,"number":"91-9564832599","type":"MOBILE"}],"profileUrl":"http://profile.yahoo.com/QBOR5J7BHIPF6UMLL7EOOPNFCI","timeZone":"America/Los_Angeles","isConnected":true}}
+)
+
+[18-Mar-2014 03:43:03] DEBUG - HTTP request details
+[18-Mar-2014 03:43:03] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_request_token
+    [code] => 200
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_callback=http%3A%2F%2Fmaestros-ites.com%2Ftestserver1%2Fteecircle%2Fyahoo%2Findex.php%3Flogout%3Fin_popup&oauth_consumer_key=dj0yJmk9VnBsQ1BSNk00Z3FKJmQ9WVdrOWFuWlFVR0pwTXpBbWNHbzlNVFExTmpnMk9UVTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1jMQ--&oauth_nonce=fef91f7ccb1b2045010cdd8d101beb51&oauth_signature=hh2RcoIMkkBs1QLn5y5Cb6K2yqQ%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1395132183&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Tue, 18 Mar 2014 08:43:03 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Accept-Encoding
+            [Connection] => close
+            [Transfer-Encoding] => chunked
+            [Content-Type] => text/plain;charset=UTF-8
+            [Cache-Control] => private
+        )
+
+    [responseBody] => oauth_token=ng3u7kr&oauth_token_secret=fa24d88389b4382707e73ecafbc50b80bc467c56&oauth_expires_in=3600&xoauth_request_auth_url=https%3A%2F%2Fapi.login.yahoo.com%2Foauth%2Fv2%2Frequest_auth%3Foauth_token%3Dng3u7kr&oauth_callback_confirmed=true
+)
+
+[18-Mar-2014 03:43:04] DEBUG - HTTP request details
+[18-Mar-2014 03:43:04] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_token
+    [code] => 401
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_consumer_key=dj0yJmk9VnBsQ1BSNk00Z3FKJmQ9WVdrOWFuWlFVR0pwTXpBbWNHbzlNVFExTmpnMk9UVTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1jMQ--&oauth_nonce=096d75ce0caf648371339b3d83fd3392&oauth_signature=WYd58DcEbOyPvckGTpaaR%2BW2j%2BA%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1395132184&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Tue, 18 Mar 2014 08:43:04 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [WWW-Authenticate] => OAuth oauth_problem=parameter_absent&oauth_parameters_absent=oauth_token
+            [Connection] => close
+            [Transfer-Encoding] => chunked
+            [Content-Type] => application/x-www-form-urlencoded
+            [Cache-Control] => private
+        )
+
+    [responseBody] => oauth_problem=parameter_absent&oauth_parameters_absent=oauth_token
+)
+
+[18-Mar-2014 03:43:04] ERROR - Failed to fetch access token: parameter_absent
+[18-Mar-2014 03:43:04] INFO - Failed to fetch access token, retrying
+[18-Mar-2014 03:43:05] DEBUG - HTTP request details
+[18-Mar-2014 03:43:05] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_token
+    [code] => 401
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_consumer_key=dj0yJmk9VnBsQ1BSNk00Z3FKJmQ9WVdrOWFuWlFVR0pwTXpBbWNHbzlNVFExTmpnMk9UVTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1jMQ--&oauth_nonce=d3014bb26376f6ee8474af51ad09aefb&oauth_signature=1YLhNzKrVKQzYK2aD6KacgD07zg%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1395132185&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Tue, 18 Mar 2014 08:43:05 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [WWW-Authenticate] => OAuth oauth_problem=parameter_absent&oauth_parameters_absent=oauth_token
+            [Connection] => close
+            [Transfer-Encoding] => chunked
+            [Content-Type] => application/x-www-form-urlencoded
+            [Cache-Control] => private
+        )
+
+    [responseBody] => oauth_problem=parameter_absent&oauth_parameters_absent=oauth_token
+)
+
+[18-Mar-2014 03:43:05] ERROR - Failed to fetch access token: parameter_absent
+[18-Mar-2014 03:43:05] DEBUG - HTTP request details
+[18-Mar-2014 03:43:05] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_request_token
+    [code] => 200
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_callback=http%3A%2F%2Fmaestros-ites.com%2Ftestserver1%2Fteecircle%2Fyahoo%2Findex.php%3Fin_popup&oauth_consumer_key=dj0yJmk9VnBsQ1BSNk00Z3FKJmQ9WVdrOWFuWlFVR0pwTXpBbWNHbzlNVFExTmpnMk9UVTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1jMQ--&oauth_nonce=12848f5b012f716608f5587284bdc98f&oauth_signature=2uh9lxja9wY7GbQbvOKEFl5lAeE%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1395132185&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Tue, 18 Mar 2014 08:43:05 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Accept-Encoding
+            [Connection] => close
+            [Transfer-Encoding] => chunked
+            [Content-Type] => text/plain;charset=UTF-8
+            [Cache-Control] => private
+        )
+
+    [responseBody] => oauth_token=napntbd&oauth_token_secret=7dd248634e55ee61c967ca99b55a92649a1cbd57&oauth_expires_in=3600&xoauth_request_auth_url=https%3A%2F%2Fapi.login.yahoo.com%2Foauth%2Fv2%2Frequest_auth%3Foauth_token%3Dnapntbd&oauth_callback_confirmed=true
+)
+
+[18-Mar-2014 03:43:08] DEBUG - HTTP request details
+[18-Mar-2014 03:43:08] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_token
+    [code] => 401
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_consumer_key=dj0yJmk9VnBsQ1BSNk00Z3FKJmQ9WVdrOWFuWlFVR0pwTXpBbWNHbzlNVFExTmpnMk9UVTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1jMQ--&oauth_nonce=25d2859880244d2158a82eaf5232d621&oauth_signature=2p4WfpsABBXQy%2Bd7ERfOGyiNfpw%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1395132188&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Tue, 18 Mar 2014 08:43:08 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [WWW-Authenticate] => OAuth oauth_problem=parameter_absent&oauth_parameters_absent=oauth_token
+            [Connection] => close
+            [Transfer-Encoding] => chunked
+            [Content-Type] => application/x-www-form-urlencoded
+            [Cache-Control] => private
+        )
+
+    [responseBody] => oauth_problem=parameter_absent&oauth_parameters_absent=oauth_token
+)
+
+[18-Mar-2014 03:43:08] ERROR - Failed to fetch access token: parameter_absent
+[18-Mar-2014 03:43:08] INFO - Failed to fetch access token, retrying
+[18-Mar-2014 03:43:09] DEBUG - HTTP request details
+[18-Mar-2014 03:43:09] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_token
+    [code] => 401
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_consumer_key=dj0yJmk9VnBsQ1BSNk00Z3FKJmQ9WVdrOWFuWlFVR0pwTXpBbWNHbzlNVFExTmpnMk9UVTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1jMQ--&oauth_nonce=0afefe5dcb584be603ad4f48743dd52f&oauth_signature=yGoaZzi8lhWiI8DnTKN4MS4aMBw%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1395132189&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Tue, 18 Mar 2014 08:43:09 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [WWW-Authenticate] => OAuth oauth_problem=parameter_absent&oauth_parameters_absent=oauth_token
+            [Connection] => close
+            [Transfer-Encoding] => chunked
+            [Content-Type] => application/x-www-form-urlencoded
+            [Cache-Control] => private
+        )
+
+    [responseBody] => oauth_problem=parameter_absent&oauth_parameters_absent=oauth_token
+)
+
+[18-Mar-2014 03:43:09] ERROR - Failed to fetch access token: parameter_absent
+[18-Mar-2014 03:43:09] DEBUG - HTTP request details
+[18-Mar-2014 03:43:09] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_request_token
+    [code] => 200
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_callback=http%3A%2F%2Fmaestros-ites.com%2Ftestserver1%2Fteecircle%2Fyahoo%2Findex.php%3Fin_popup&oauth_consumer_key=dj0yJmk9VnBsQ1BSNk00Z3FKJmQ9WVdrOWFuWlFVR0pwTXpBbWNHbzlNVFExTmpnMk9UVTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1jMQ--&oauth_nonce=95001fc57165817e827dd5ef3476265a&oauth_signature=0QaEXOeHp52Xc4ulwlHAinWutKY%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1395132189&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Tue, 18 Mar 2014 08:43:09 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Accept-Encoding
+            [Connection] => close
+            [Transfer-Encoding] => chunked
+            [Content-Type] => text/plain;charset=UTF-8
+            [Cache-Control] => private
+        )
+
+    [responseBody] => oauth_token=njrqgam&oauth_token_secret=20b24b0e07623dd71252e99b42797c822694511a&oauth_expires_in=3600&xoauth_request_auth_url=https%3A%2F%2Fapi.login.yahoo.com%2Foauth%2Fv2%2Frequest_auth%3Foauth_token%3Dnjrqgam&oauth_callback_confirmed=true
+)
+
+[18-Mar-2014 03:43:36] DEBUG - HTTP request details
+[18-Mar-2014 03:43:36] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_token
+    [code] => 401
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_consumer_key=dj0yJmk9VnBsQ1BSNk00Z3FKJmQ9WVdrOWFuWlFVR0pwTXpBbWNHbzlNVFExTmpnMk9UVTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1jMQ--&oauth_nonce=b530ead2f016f0007a7db3a2ba6527db&oauth_signature=QGcBxmZqvjpktR3P4c2ST0T9sus%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1395132215&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Tue, 18 Mar 2014 08:43:36 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [WWW-Authenticate] => OAuth oauth_problem=parameter_absent&oauth_parameters_absent=oauth_token
+            [Connection] => close
+            [Transfer-Encoding] => chunked
+            [Content-Type] => application/x-www-form-urlencoded
+            [Cache-Control] => private
+        )
+
+    [responseBody] => oauth_problem=parameter_absent&oauth_parameters_absent=oauth_token
+)
+
+[18-Mar-2014 03:43:36] ERROR - Failed to fetch access token: parameter_absent
+[18-Mar-2014 03:43:36] INFO - Failed to fetch access token, retrying
+[18-Mar-2014 03:43:36] DEBUG - HTTP request details
+[18-Mar-2014 03:43:36] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_token
+    [code] => 401
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_consumer_key=dj0yJmk9VnBsQ1BSNk00Z3FKJmQ9WVdrOWFuWlFVR0pwTXpBbWNHbzlNVFExTmpnMk9UVTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1jMQ--&oauth_nonce=3fd90733c6368251d3e9e558a4418ece&oauth_signature=MMYvOENg2HQlcygWXjgAFzbqgMw%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1395132216&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Tue, 18 Mar 2014 08:43:36 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [WWW-Authenticate] => OAuth oauth_problem=parameter_absent&oauth_parameters_absent=oauth_token
+            [Connection] => close
+            [Transfer-Encoding] => chunked
+            [Content-Type] => application/x-www-form-urlencoded
+            [Cache-Control] => private
+        )
+
+    [responseBody] => oauth_problem=parameter_absent&oauth_parameters_absent=oauth_token
+)
+
+[18-Mar-2014 03:43:36] ERROR - Failed to fetch access token: parameter_absent
+[18-Mar-2014 03:43:37] DEBUG - HTTP request details
+[18-Mar-2014 03:43:37] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_request_token
+    [code] => 200
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_callback=http%3A%2F%2Fmaestros-ites.com%2Ftestserver1%2Fteecircle%2Fyahoo%2Findex.php%3Fin_popup&oauth_consumer_key=dj0yJmk9VnBsQ1BSNk00Z3FKJmQ9WVdrOWFuWlFVR0pwTXpBbWNHbzlNVFExTmpnMk9UVTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1jMQ--&oauth_nonce=3f561a2d912c2fb0cb444b1284bd068e&oauth_signature=PNeSCHoi6tFRjSRd17OWGfWp%2B50%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1395132216&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Tue, 18 Mar 2014 08:43:37 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Accept-Encoding
+            [Connection] => close
+            [Transfer-Encoding] => chunked
+            [Content-Type] => text/plain;charset=UTF-8
+            [Cache-Control] => private
+        )
+
+    [responseBody] => oauth_token=nufhshd&oauth_token_secret=1b69b6c921f988de7596a7e59be7ec1a3cf995e4&oauth_expires_in=3600&xoauth_request_auth_url=https%3A%2F%2Fapi.login.yahoo.com%2Foauth%2Fv2%2Frequest_auth%3Foauth_token%3Dnufhshd&oauth_callback_confirmed=true
+)
+
+[18-Mar-2014 03:44:10] DEBUG - HTTP request details
+[18-Mar-2014 03:44:10] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_token
+    [code] => 200
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_consumer_key=dj0yJmk9VnBsQ1BSNk00Z3FKJmQ9WVdrOWFuWlFVR0pwTXpBbWNHbzlNVFExTmpnMk9UVTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1jMQ--&oauth_nonce=be4d22853e288e075ec658893845faeb&oauth_signature=JPnAFgzNI8dego97L73LEOc1xB0%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1395132249&oauth_token=nufhshd&oauth_verifier=epk3hy&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Tue, 18 Mar 2014 08:44:10 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Accept-Encoding
+            [Connection] => close
+            [Transfer-Encoding] => chunked
+            [Content-Type] => text/plain;charset=UTF-8
+            [Cache-Control] => private
+        )
+
+    [responseBody] => oauth_token=A%3D1k1aE4LpoTaTaGrmzlYltHl_SAq4dpsF0lSeJ87o_4ox9pDVD3i76CCGaemg86Zm59zEmUymVXeSxHk78Lq6cvsOMeDPbKsEsgW7V1YAO7HDjPm_Bg2kl.FlTvK6AplgypcCcx72tR94BVK0Jrt79OKMhcTD1eupoUTNengLlr2ViyKSxpEb0ZXke13XJkf.CycJSdj8NuaF._g8.g7jrubqqc7xA1UhFV0LYVwmWsImnhCBqF83EtzweBu7D3WGF2LMSm9xxYlYpEpkzdkya2wr4Fm9nYsZVAH8Hp7y5F1giPGLzo2PS7hSt_0EkfxIvGV2NoxLnEOOauDMp4qsflKwnOci3n3KUlHyH7KTryPItKJzDe7.UX8Jq3mHmVECc91ikvehPLJnUgjGYFZ5EnxGVhlZq7Eu69Iuze5lISMvOXfFY_H5vDjmuF_Tj6tR.Fg.xQ2wAS6282eenh._qgwLO6b5p5PVj7Up67WikP38ZA4Ot66J539DX9wksDLR6LwzCVZCXG63SLN98vK0NpQD9WimkMivvDSaQT30gvxqs31hNezR6Fu82mUO3jQpguIaE2M2SK.FLThFG9mp_cMR8qS4ZlvHBFODQueD1rKt9ucBChO0Si6b_1uvOk_Vwp_qrmQ9.MBfM67teFL7LK5JVTan1hT8oG9zk4Q2hikRGai9uKuQNyOBO.ZI7oTbuPojvQi9OYeg.VEOiqF53NND82gDue3ilhL5zWSnDAGrixJSRC_lECHZ72iirczWr0pQgnkQTUvwKzqk.T2M3BQ72WoyfW5emE5oU18MOm8N4QA8MrHjperBGKVx1hQF5Mvl2AelLyNzlH0b50QAZy410aEFwQXJUrp_qgQqh5IpnrpKapdVsVseJG5hjbkS0w0QxYJhySf9S78EZx8QG1gw_hIWTL6wcmwo_Lc79NYLHA--&oauth_token_secret=b98ef9cc263755f629b71a48fece6418264ca48e&oauth_expires_in=3600&oauth_session_handle=ANsGKFMRhojgnnxWPBDtx3VOCupO3S_2lKS_HJx.bI7KO6TKgH9Zh4nDy4rTojVqQpTn87c9&oauth_authorization_expires_in=752351397&xoauth_yahoo_guid=QBOR5J7BHIPF6UMLL7EOOPNFCI
+)
+
+[18-Mar-2014 03:44:10] DEBUG - AT expires in 3600; ASH expires in 752351397
+[18-Mar-2014 03:44:11] DEBUG - OAuth AT: A=1k1aE4LpoTaTaGrmzlYltHl_SAq4dpsF0lSeJ87o_4ox9pDVD3i76CCGaemg86Zm59zEmUymVXeSxHk78Lq6cvsOMeDPbKsEsgW7V1YAO7HDjPm_Bg2kl.FlTvK6AplgypcCcx72tR94BVK0Jrt79OKMhcTD1eupoUTNengLlr2ViyKSxpEb0ZXke13XJkf.CycJSdj8NuaF._g8.g7jrubqqc7xA1UhFV0LYVwmWsImnhCBqF83EtzweBu7D3WGF2LMSm9xxYlYpEpkzdkya2wr4Fm9nYsZVAH8Hp7y5F1giPGLzo2PS7hSt_0EkfxIvGV2NoxLnEOOauDMp4qsflKwnOci3n3KUlHyH7KTryPItKJzDe7.UX8Jq3mHmVECc91ikvehPLJnUgjGYFZ5EnxGVhlZq7Eu69Iuze5lISMvOXfFY_H5vDjmuF_Tj6tR.Fg.xQ2wAS6282eenh._qgwLO6b5p5PVj7Up67WikP38ZA4Ot66J539DX9wksDLR6LwzCVZCXG63SLN98vK0NpQD9WimkMivvDSaQT30gvxqs31hNezR6Fu82mUO3jQpguIaE2M2SK.FLThFG9mp_cMR8qS4ZlvHBFODQueD1rKt9ucBChO0Si6b_1uvOk_Vwp_qrmQ9.MBfM67teFL7LK5JVTan1hT8oG9zk4Q2hikRGai9uKuQNyOBO.ZI7oTbuPojvQi9OYeg.VEOiqF53NND82gDue3ilhL5zWSnDAGrixJSRC_lECHZ72iirczWr0pQgnkQTUvwKzqk.T2M3BQ72WoyfW5emE5oU18MOm8N4QA8MrHjperBGKVx1hQF5Mvl2AelLyNzlH0b50QAZy410aEFwQXJUrp_qgQqh5IpnrpKapdVsVseJG5hjbkS0w0QxYJhySf9S78EZx8QG1gw_hIWTL6wcmwo_Lc79NYLHA--   ATS: b98ef9cc263755f629b71a48fece6418264ca48e
+[18-Mar-2014 03:44:11] DEBUG - AT Expires in: 3599
+[18-Mar-2014 03:44:11] DEBUG - HTTP request details
+[18-Mar-2014 03:44:11] DEBUG OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/QBOR5J7BHIPF6UMLL7EOOPNFCI/profile
+    [code] => 200
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth realm="yahooapis.com",oauth_version="1.0",oauth_nonce="097f1c9abd329ee69dc45a07c6b10f69",oauth_timestamp="1395132251",oauth_consumer_key="dj0yJmk9VnBsQ1BSNk00Z3FKJmQ9WVdrOWFuWlFVR0pwTXpBbWNHbzlNVFExTmpnMk9UVTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1jMQ--",oauth_token="A%3D1k1aE4LpoTaTaGrmzlYltHl_SAq4dpsF0lSeJ87o_4ox9pDVD3i76CCGaemg86Zm59zEmUymVXeSxHk78Lq6cvsOMeDPbKsEsgW7V1YAO7HDjPm_Bg2kl.FlTvK6AplgypcCcx72tR94BVK0Jrt79OKMhcTD1eupoUTNengLlr2ViyKSxpEb0ZXke13XJkf.CycJSdj8NuaF._g8.g7jrubqqc7xA1UhFV0LYVwmWsImnhCBqF83EtzweBu7D3WGF2LMSm9xxYlYpEpkzdkya2wr4Fm9nYsZVAH8Hp7y5F1giPGLzo2PS7hSt_0EkfxIvGV2NoxLnEOOauDMp4qsflKwnOci3n3KUlHyH7KTryPItKJzDe7.UX8Jq3mHmVECc91ikvehPLJnUgjGYFZ5EnxGVhlZq7Eu69Iuze5lISMvOXfFY_H5vDjmuF_Tj6tR.Fg.xQ2wAS6282eenh._qgwLO6b5p5PVj7Up67WikP38ZA4Ot66J539DX9wksDLR6LwzCVZCXG63SLN98vK0NpQD9WimkMivvDSaQT30gvxqs31hNezR6Fu82mUO3jQpguIaE2M2SK.FLThFG9mp_cMR8qS4ZlvHBFODQueD1rKt9ucBChO0Si6b_1uvOk_Vwp_qrmQ9.MBfM67teFL7LK5JVTan1hT8oG9zk4Q2hikRGai9uKuQNyOBO.ZI7oTbuPojvQi9OYeg.VEOiqF53NND82gDue3ilhL5zWSnDAGrixJSRC_lECHZ72iirczWr0pQgnkQTUvwKzqk.T2M3BQ72WoyfW5emE5oU18MOm8N4QA8MrHjperBGKVx1hQF5Mvl2AelLyNzlH0b50QAZy410aEFwQXJUrp_qgQqh5IpnrpKapdVsVseJG5hjbkS0w0QxYJhySf9S78EZx8QG1gw_hIWTL6wcmwo_Lc79NYLHA--",oauth_signature_method="HMAC-SHA1",oauth_signature="vA0aWw3G0pplr9%2Bs35vL86KBbkY%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Tue, 18 Mar 2014 08:44:11 GMT
+            [Cache-Control] => private
+            [Vary] => Authorization,Accept-Encoding
+            [X-Yahoo-Social-Host] => ws121.socdir.bf1.yahoo.com
+            [Content-Type] => application/json; charset=utf-8
+            [Content-Encoding] => gzip
+            [Age] => 0
+            [Transfer-Encoding] => chunked
+            [Connection] => keep-alive
+            [Via] => http/1.1 r24.ycpi.dxs.yahoo.net (ApacheTrafficServer/4.0.2 [cMsSf ])
+            [Server] => ATS
+        )
+
+    [responseBody] => {"profile":{"uri":"http://social.yahooapis.com/v1/user/QBOR5J7BHIPF6UMLL7EOOPNFCI/profile","guid":"QBOR5J7BHIPF6UMLL7EOOPNFCI","addresses":[{"city":"","country":"IN","current":true,"id":4,"postalCode":"","state":"","street":"","type":"HOME"},{"city":"","country":"IN","current":true,"id":5,"postalCode":"","state":"","street":"","type":"WORK"}],"bdRestricted":true,"created":"2014-03-18T08:44:11Z","emails":[{"handle":"candeobubai@gmail.com","id":1,"primary":true,"type":"HOME"},{"handle":"candeobubai@yahoo.com","id":2,"type":"HOME"}],"familyName":"Dey","givenName":"Bubai","image":{"height":192,"imageUrl":"http://l.yimg.com/dh/ap/social/profile/profile_b192.png","size":"192x192","width":192},"lang":"en-US","memberSince":"2013-05-06T10:40:04Z","nickname":"Bubai","phones":[{"id":3,"number":"91-9564832599","type":"MOBILE"}],"profileUrl":"http://profile.yahoo.com/QBOR5J7BHIPF6UMLL7EOOPNFCI","timeZone":"America/Los_Angeles","isConnected":true}}
+)
+
+[18-Mar-2014 03:46:12] DEBUG - OAuth AT: A=1k1aE4LpoTaTaGrmzlYltHl_SAq4dpsF0lSeJ87o_4ox9pDVD3i76CCGaemg86Zm59zEmUymVXeSxHk78Lq6cvsOMeDPbKsEsgW7V1YAO7HDjPm_Bg2kl.FlTvK6AplgypcCcx72tR94BVK0Jrt79OKMhcTD1eupoUTNengLlr2ViyKSxpEb0ZXke13XJkf.CycJSdj8NuaF._g8.g7jrubqqc7xA1UhFV0LYVwmWsImnhCBqF83EtzweBu7D3WGF2LMSm9xxYlYpEpkzdkya2wr4Fm9nYsZVAH8Hp7y5F1giPGLzo2PS7hSt_0EkfxIvGV2NoxLnEOOauDMp4qsflKwnOci3n3KUlHyH7KTryPItKJzDe7.UX8Jq3mHmVECc91ikvehPLJnUgjGYFZ5EnxGVhlZq7Eu69Iuze5lISMvOXfFY_H5vDjmuF_Tj6tR.Fg.xQ2wAS6282eenh._qgwLO6b5p5PVj7Up67WikP38ZA4Ot66J539DX9wksDLR6LwzCVZCXG63SLN98vK0NpQD9WimkMivvDSaQT30gvxqs31hNezR6Fu82mUO3jQpguIaE2M2SK.FLThFG9mp_cMR8qS4ZlvHBFODQueD1rKt9ucBChO0Si6b_1uvOk_Vwp_qrmQ9.MBfM67teFL7LK5JVTan1hT8oG9zk4Q2hikRGai9uKuQNyOBO.ZI7oTbuPojvQi9OYeg.VEOiqF53NND82gDue3ilhL5zWSnDAGrixJSRC_lECHZ72iirczWr0pQgnkQTUvwKzqk.T2M3BQ72WoyfW5emE5oU18MOm8N4QA8MrHjperBGKVx1hQF5Mvl2AelLyNzlH0b50QAZy410aEFwQXJUrp_qgQqh5IpnrpKapdVsVseJG5hjbkS0w0QxYJhySf9S78EZx8QG1gw_hIWTL6wcmwo_Lc79NYLHA--   ATS: b98ef9cc263755f629b71a48fece6418264ca48e
+[18-Mar-2014 03:46:12] DEBUG - AT Expires in: 3478
+[18-Mar-2014 03:46:12] DEBUG - HTTP request details
+[18-Mar-2014 03:46:12] DEBUG OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/QBOR5J7BHIPF6UMLL7EOOPNFCI/profile
+    [code] => 200
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth realm="yahooapis.com",oauth_version="1.0",oauth_nonce="6fb192d5806002ae0b3b269084fa4e45",oauth_timestamp="1395132372",oauth_consumer_key="dj0yJmk9VnBsQ1BSNk00Z3FKJmQ9WVdrOWFuWlFVR0pwTXpBbWNHbzlNVFExTmpnMk9UVTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1jMQ--",oauth_token="A%3D1k1aE4LpoTaTaGrmzlYltHl_SAq4dpsF0lSeJ87o_4ox9pDVD3i76CCGaemg86Zm59zEmUymVXeSxHk78Lq6cvsOMeDPbKsEsgW7V1YAO7HDjPm_Bg2kl.FlTvK6AplgypcCcx72tR94BVK0Jrt79OKMhcTD1eupoUTNengLlr2ViyKSxpEb0ZXke13XJkf.CycJSdj8NuaF._g8.g7jrubqqc7xA1UhFV0LYVwmWsImnhCBqF83EtzweBu7D3WGF2LMSm9xxYlYpEpkzdkya2wr4Fm9nYsZVAH8Hp7y5F1giPGLzo2PS7hSt_0EkfxIvGV2NoxLnEOOauDMp4qsflKwnOci3n3KUlHyH7KTryPItKJzDe7.UX8Jq3mHmVECc91ikvehPLJnUgjGYFZ5EnxGVhlZq7Eu69Iuze5lISMvOXfFY_H5vDjmuF_Tj6tR.Fg.xQ2wAS6282eenh._qgwLO6b5p5PVj7Up67WikP38ZA4Ot66J539DX9wksDLR6LwzCVZCXG63SLN98vK0NpQD9WimkMivvDSaQT30gvxqs31hNezR6Fu82mUO3jQpguIaE2M2SK.FLThFG9mp_cMR8qS4ZlvHBFODQueD1rKt9ucBChO0Si6b_1uvOk_Vwp_qrmQ9.MBfM67teFL7LK5JVTan1hT8oG9zk4Q2hikRGai9uKuQNyOBO.ZI7oTbuPojvQi9OYeg.VEOiqF53NND82gDue3ilhL5zWSnDAGrixJSRC_lECHZ72iirczWr0pQgnkQTUvwKzqk.T2M3BQ72WoyfW5emE5oU18MOm8N4QA8MrHjperBGKVx1hQF5Mvl2AelLyNzlH0b50QAZy410aEFwQXJUrp_qgQqh5IpnrpKapdVsVseJG5hjbkS0w0QxYJhySf9S78EZx8QG1gw_hIWTL6wcmwo_Lc79NYLHA--",oauth_signature_method="HMAC-SHA1",oauth_signature="23QJiikKJ2zAYRsGUoIDErrhXDg%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Tue, 18 Mar 2014 08:46:12 GMT
+            [Cache-Control] => private
+            [Vary] => Authorization,Accept-Encoding
+            [X-Yahoo-Social-Host] => ws108.socdir.gq1.yahoo.com
+            [Content-Type] => application/json; charset=utf-8
+            [Content-Encoding] => gzip
+            [Age] => 0
+            [Transfer-Encoding] => chunked
+            [Connection] => keep-alive
+            [Via] => http/1.1 r19.ycpi.dxs.yahoo.net (ApacheTrafficServer/4.0.2 [cMsSf ])
+            [Server] => ATS
+        )
+
+    [responseBody] => {"profile":{"uri":"http://social.yahooapis.com/v1/user/QBOR5J7BHIPF6UMLL7EOOPNFCI/profile","guid":"QBOR5J7BHIPF6UMLL7EOOPNFCI","addresses":[{"city":"","country":"IN","current":true,"id":4,"postalCode":"","state":"","street":"","type":"HOME"},{"city":"","country":"IN","current":true,"id":5,"postalCode":"","state":"","street":"","type":"WORK"}],"bdRestricted":true,"created":"2014-03-18T08:46:12Z","emails":[{"handle":"candeobubai@gmail.com","id":1,"primary":true,"type":"HOME"},{"handle":"candeobubai@yahoo.com","id":2,"type":"HOME"}],"familyName":"Dey","givenName":"Bubai","image":{"height":192,"imageUrl":"http://l.yimg.com/dh/ap/social/profile/profile_b192.png","size":"192x192","width":192},"lang":"en-US","memberSince":"2013-05-06T10:40:04Z","nickname":"Bubai","phones":[{"id":3,"number":"91-9564832599","type":"MOBILE"}],"profileUrl":"http://profile.yahoo.com/QBOR5J7BHIPF6UMLL7EOOPNFCI","timeZone":"America/Los_Angeles","isConnected":true}}
+)
+
+[18-Mar-2014 03:57:56] DEBUG - HTTP request details
+[18-Mar-2014 03:57:56] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_request_token
+    [code] => 200
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_callback=http%3A%2F%2Fmaestros-ites.com%2Ftestserver1%2Fteecircle%2Fyahoo%2Findex.php%3Fin_popup&oauth_consumer_key=dj0yJmk9VnBsQ1BSNk00Z3FKJmQ9WVdrOWFuWlFVR0pwTXpBbWNHbzlNVFExTmpnMk9UVTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1jMQ--&oauth_nonce=211f072dc71ecaa69082f6cea5b585ec&oauth_signature=Upr%2B4j0Um2IJmbP478C%2FZJL1WC8%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1395133076&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Tue, 18 Mar 2014 08:57:56 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Accept-Encoding
+            [Connection] => close
+            [Transfer-Encoding] => chunked
+            [Content-Type] => text/plain;charset=UTF-8
+            [Cache-Control] => private
+        )
+
+    [responseBody] => oauth_token=nmthm6y&oauth_token_secret=2a353738582d06cbe8fc929abb025218719e156e&oauth_expires_in=3600&xoauth_request_auth_url=https%3A%2F%2Fapi.login.yahoo.com%2Foauth%2Fv2%2Frequest_auth%3Foauth_token%3Dnmthm6y&oauth_callback_confirmed=true
+)
+
+[18-Mar-2014 04:00:19] DEBUG - HTTP request details
+[18-Mar-2014 04:00:19] DEBUG OBJECT - Array
+(
+    [method] => POST
+    [url] => https://api.login.yahoo.com/oauth/v2/get_token
+    [code] => 200
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Content-Type: application/x-www-form-urlencoded
+        )
+
+    [requestBody] => oauth_consumer_key=dj0yJmk9VnBsQ1BSNk00Z3FKJmQ9WVdrOWFuWlFVR0pwTXpBbWNHbzlNVFExTmpnMk9UVTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1jMQ--&oauth_nonce=e7a448b4c79fc2882e1af2fbd84e753c&oauth_signature=3jL4JdtFpwauByzelt8FSW3zf90%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1395133219&oauth_token=nmthm6y&oauth_verifier=avqcma&oauth_version=1.0
+    [responseHeaders] => Array
+        (
+            [Date] => Tue, 18 Mar 2014 09:00:19 GMT
+            [P3P] => policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+            [Vary] => Accept-Encoding
+            [Connection] => close
+            [Transfer-Encoding] => chunked
+            [Content-Type] => text/plain;charset=UTF-8
+            [Cache-Control] => private
+        )
+
+    [responseBody] => oauth_token=A%3Dcx5Q0ertkgacmye.LBZDruHi5jGuPmyuGWQa4kFgnnx1hrjjX7Hzj231QJQSe1ljhEVYssj54ylLhnpCVKeCNYG3GKLTFL5vOhC5.h5ik82CXQEwj7.h52aepnSMM_l5GHElS9IfvceWQOKxO5omBd4exE8F7Q2CBC8D7BCJvhLiaxJlOBqmSB9HgQWveWUMHVpuMFHOHE4FzYDuU8zNic_Ge.itZJnGnTBhktHmsW4T32JS8cBr_26LOh1vVjdcIdjXH56mC5qI63bJgf0fWrQifvMccLxoAPcDqpt6Wr79w._kUCVlgvunorzfNgMIjzeNYdmE127G_CcmyutBMSZ4y9QLQEEY2zDEAbLXdzJ.DwVwtjisTaXX.RRORfnj1jh5aUw5ksjgFcFZi8iJapU0Q42bf7iv_YeI08VJ0i3ok_Sq.X9tNb0m4RxLaE7P0Kq9TywTgfe14Bs9Fa2JR3eprJLqRG88bBGrVMOsmLa_r1RjWj8PMjIARCMEGLw6YQcUpFvkqfJKnd_dHgggdRzY0X3m_L3h5hTUeC5BryuU0T5wIi_bwgmdIjqraqF2qLCb69l9KeqzDbRm3A0dx.ilU0TICj8HPtXntafiFziHIzmH7Edld7hU_em502RLzV1rUBL07A6cKbb02zuSY8JqvnsM6pFb.zojCKSQepV.LD.dxSV_zuPypPQDeuD_XREQiID_Z73gBVy1ADMbRITwvEr2nazbMiZwrceovq8FhFtc4aTcdQ4k8gGvSA15oA3thJ6N6ofOZ1MEeqAwfrgZsRFmRzTD07KnCWjMK.Xnt1q30bBtp2E3Lzi6XmzBz9I8SYe22kZOjQMyMd9Fn_.SjQ_C8uhQioLjlfWrRaQssDf.n4xd5kuuPMLYX72oxE.0tJDPek.u9zelPU19QMkS06wMVN2c0Z0JKhhMshgdoA--&oauth_token_secret=5ddac7bd872cd26d3c21ba9b783124a25c3ae6ef&oauth_expires_in=3600&oauth_session_handle=ANsGKFMRhojgnnxWPBDtx3VOCupO3S_2lKS_HJx.bI7KO6TKgH9Zh4nDy4rTojVqQpTn87c9&oauth_authorization_expires_in=752350428&xoauth_yahoo_guid=QBOR5J7BHIPF6UMLL7EOOPNFCI
+)
+
+[18-Mar-2014 04:00:19] DEBUG - AT expires in 3600; ASH expires in 752350428
+[18-Mar-2014 04:00:21] DEBUG - OAuth AT: A=cx5Q0ertkgacmye.LBZDruHi5jGuPmyuGWQa4kFgnnx1hrjjX7Hzj231QJQSe1ljhEVYssj54ylLhnpCVKeCNYG3GKLTFL5vOhC5.h5ik82CXQEwj7.h52aepnSMM_l5GHElS9IfvceWQOKxO5omBd4exE8F7Q2CBC8D7BCJvhLiaxJlOBqmSB9HgQWveWUMHVpuMFHOHE4FzYDuU8zNic_Ge.itZJnGnTBhktHmsW4T32JS8cBr_26LOh1vVjdcIdjXH56mC5qI63bJgf0fWrQifvMccLxoAPcDqpt6Wr79w._kUCVlgvunorzfNgMIjzeNYdmE127G_CcmyutBMSZ4y9QLQEEY2zDEAbLXdzJ.DwVwtjisTaXX.RRORfnj1jh5aUw5ksjgFcFZi8iJapU0Q42bf7iv_YeI08VJ0i3ok_Sq.X9tNb0m4RxLaE7P0Kq9TywTgfe14Bs9Fa2JR3eprJLqRG88bBGrVMOsmLa_r1RjWj8PMjIARCMEGLw6YQcUpFvkqfJKnd_dHgggdRzY0X3m_L3h5hTUeC5BryuU0T5wIi_bwgmdIjqraqF2qLCb69l9KeqzDbRm3A0dx.ilU0TICj8HPtXntafiFziHIzmH7Edld7hU_em502RLzV1rUBL07A6cKbb02zuSY8JqvnsM6pFb.zojCKSQepV.LD.dxSV_zuPypPQDeuD_XREQiID_Z73gBVy1ADMbRITwvEr2nazbMiZwrceovq8FhFtc4aTcdQ4k8gGvSA15oA3thJ6N6ofOZ1MEeqAwfrgZsRFmRzTD07KnCWjMK.Xnt1q30bBtp2E3Lzi6XmzBz9I8SYe22kZOjQMyMd9Fn_.SjQ_C8uhQioLjlfWrRaQssDf.n4xd5kuuPMLYX72oxE.0tJDPek.u9zelPU19QMkS06wMVN2c0Z0JKhhMshgdoA--   ATS: 5ddac7bd872cd26d3c21ba9b783124a25c3ae6ef
+[18-Mar-2014 04:00:21] DEBUG - AT Expires in: 3598
+[18-Mar-2014 04:00:21] DEBUG - HTTP request details
+[18-Mar-2014 04:00:21] DEBUG OBJECT - Array
+(
+    [method] => GET
+    [url] => http://social.yahooapis.com/v1/user/QBOR5J7BHIPF6UMLL7EOOPNFCI/profile
+    [code] => 200
+    [requestHeaders] => Array
+        (
+            [0] => Accept: application/json
+            [1] => Authorization: OAuth realm="yahooapis.com",oauth_version="1.0",oauth_nonce="c090776bf5c43830c639cd776ca89043",oauth_timestamp="1395133221",oauth_consumer_key="dj0yJmk9VnBsQ1BSNk00Z3FKJmQ9WVdrOWFuWlFVR0pwTXpBbWNHbzlNVFExTmpnMk9UVTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1jMQ--",oauth_token="A%3Dcx5Q0ertkgacmye.LBZDruHi5jGuPmyuGWQa4kFgnnx1hrjjX7Hzj231QJQSe1ljhEVYssj54ylLhnpCVKeCNYG3GKLTFL5vOhC5.h5ik82CXQEwj7.h52aepnSMM_l5GHElS9IfvceWQOKxO5omBd4exE8F7Q2CBC8D7BCJvhLiaxJlOBqmSB9HgQWveWUMHVpuMFHOHE4FzYDuU8zNic_Ge.itZJnGnTBhktHmsW4T32JS8cBr_26LOh1vVjdcIdjXH56mC5qI63bJgf0fWrQifvMccLxoAPcDqpt6Wr79w._kUCVlgvunorzfNgMIjzeNYdmE127G_CcmyutBMSZ4y9QLQEEY2zDEAbLXdzJ.DwVwtjisTaXX.RRORfnj1jh5aUw5ksjgFcFZi8iJapU0Q42bf7iv_YeI08VJ0i3ok_Sq.X9tNb0m4RxLaE7P0Kq9TywTgfe14Bs9Fa2JR3eprJLqRG88bBGrVMOsmLa_r1RjWj8PMjIARCMEGLw6YQcUpFvkqfJKnd_dHgggdRzY0X3m_L3h5hTUeC5BryuU0T5wIi_bwgmdIjqraqF2qLCb69l9KeqzDbRm3A0dx.ilU0TICj8HPtXntafiFziHIzmH7Edld7hU_em502RLzV1rUBL07A6cKbb02zuSY8JqvnsM6pFb.zojCKSQepV.LD.dxSV_zuPypPQDeuD_XREQiID_Z73gBVy1ADMbRITwvEr2nazbMiZwrceovq8FhFtc4aTcdQ4k8gGvSA15oA3thJ6N6ofOZ1MEeqAwfrgZsRFmRzTD07KnCWjMK.Xnt1q30bBtp2E3Lzi6XmzBz9I8SYe22kZOjQMyMd9Fn_.SjQ_C8uhQioLjlfWrRaQssDf.n4xd5kuuPMLYX72oxE.0tJDPek.u9zelPU19QMkS06wMVN2c0Z0JKhhMshgdoA--",oauth_signature_method="HMAC-SHA1",oauth_signature="1d1kAoPHSTcRzb%2BPILtZ0Be4Peg%3D"
+        )
+
+    [requestBody] => 
+    [responseHeaders] => Array
+        (
+            [Date] => Tue, 18 Mar 2014 09:00:21 GMT
+            [Cache-Control] => private
+            [Vary] => Authorization,Accept-Encoding
+            [X-Yahoo-Social-Host] => ws106.socdir.bf1.yahoo.com
+            [Content-Type] => application/json; charset=utf-8
+            [Content-Encoding] => gzip
+            [Age] => 0
+            [Transfer-Encoding] => chunked
+            [Connection] => keep-alive
+            [Via] => http/1.1 r28.ycpi.dxs.yahoo.net (ApacheTrafficServer/4.0.2 [cMsSf ])
+            [Server] => ATS
+        )
+
+    [responseBody] => {"profile":{"uri":"http://social.yahooapis.com/v1/user/QBOR5J7BHIPF6UMLL7EOOPNFCI/profile","guid":"QBOR5J7BHIPF6UMLL7EOOPNFCI","addresses":[{"city":"","country":"IN","current":true,"id":4,"postalCode":"","state":"","street":"","type":"HOME"},{"city":"","country":"IN","current":true,"id":5,"postalCode":"","state":"","street":"","type":"WORK"}],"bdRestricted":true,"created":"2014-03-18T09:00:21Z","emails":[{"handle":"candeobubai@gmail.com","id":1,"primary":true,"type":"HOME"},{"handle":"candeobubai@yahoo.com","id":2,"type":"HOME"}],"familyName":"Dey","givenName":"Bubai","image":{"height":192,"imageUrl":"http://l.yimg.com/dh/ap/social/profile/profile_b192.png","size":"192x192","width":192},"lang":"en-US","memberSince":"2013-05-06T10:40:04Z","nickname":"Bubai","phones":[{"id":3,"number":"91-9564832599","type":"MOBILE"}],"profileUrl":"http://profile.yahoo.com/QBOR5J7BHIPF6UMLL7EOOPNFCI","timeZone":"America/Los_Angeles","isConnected":true}}
+)
+

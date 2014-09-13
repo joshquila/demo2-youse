@@ -7,7 +7,7 @@ session_start();
 $_SESSION['reditect_page'] = 'design/';
 
 ?>
-<input type="hidden" id="userlogintype" value="<?php if(is_user_logged_in()){echo 'loggedin';}else{echo 'log';}?>" />
+<input type="hidden" id="userlogintype" value="<?php if(is_user_logged_in()){ echo 'loggedin'; }else{ echo 'log'; }?>" />
 <script>
 	
 		
@@ -22,8 +22,7 @@ $_SESSION['reditect_page'] = 'design/';
 		return false;	
 	}
 		
-	function HexToRGB(Hex)
-		{
+	function HexToRGB(Hex){
 			var Long = parseInt(Hex.replace(/^#/, ""), 16);
 			return {
 				R: (Long >>> 16) & 0xff,
@@ -108,20 +107,9 @@ $_SESSION['reditect_page'] = 'design/';
 		}
 			
 </script>
-<?php //bloginfo('url'); 
-$profit_val = mysql_query("Select meta_value,meta_key from wp_postmeta where post_id=460 AND meta_key!='profit_margin' AND meta_key!='_my_meta_value_key' AND meta_key!='_edit_lock' AND meta_key!='_edit_last'");
- while($profit_valwhile = mysql_fetch_array($profit_val)){?>
- <input type="hidden" name="<?php echo $profit_valwhile['meta_key'];?>" id="<?php echo $profit_valwhile['meta_key'];?>" value="<?php echo $profit_valwhile['meta_value'];?>" />
-<?php 
- }
- ?>
- <input type="hidden" name="imagecounter" value="0" id="imagecounter" />
- <input type="hidden" name="changeinagco" id="changeinagco" />
- 
-<?php get_header('design'); ?>
-<?php
-	$product_categories = get_terms( 'product_cat');
-	//print_r($product_categories);
+<?php get_header('design'); ?>	<input type="hidden" name="imagecounter" value="0" id="imagecounter" />	<input type="hidden" name="changeinagco" id="changeinagco" />	<?php 	$profit_val = mysql_query("Select meta_value,meta_key from wp_postmeta where post_id=460 AND meta_key!='profit_margin' AND meta_key!='_my_meta_value_key' AND meta_key!='_edit_lock' AND meta_key!='_edit_last'");	while($profit_valwhile = mysql_fetch_array($profit_val)){ ?>		<input type="hidden" name="<?php echo $profit_valwhile['meta_key'];?>" id="<?php echo $profit_valwhile['meta_key'];?>" value="<?php echo $profit_valwhile['meta_value'];?>" />		<?php 	}	
+	$product_categories = get_terms( 'product_cat');
+	//print_r($product_categories);
 	?>
  <!--Body start-->
       <div class="mainBdy row"> 

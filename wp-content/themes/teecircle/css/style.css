@@ -49,14 +49,14 @@ body {padding:0px; margin:0; min-width:1202px; font:16px 'Conv_VarelaRound-Regul
 /*------------------------Mobile*/
 .mobileMenu{display:none;}
 .mobile_nav{width:auto;	display:none; height:26px; line-height:26px; cursor:pointer; display:inline-block;}
-.wrapper .header .bnrPrt{ width:430px;}
-.wrapper .header .bnrPrt h1{ color:#fff; font:bold 42px 'Conv_VarelaRound-Regular'; line-height:100%; margin-top:115px;}
-.wrapper .header .bnrPrt p{ font:23px Conv_VarelaRound-Regular; color:#fff; margin:30px 0;}
-.wrapper .header .bnrPrt a.gtSrtd{ color:#fff; font:20px 'Conv_VarelaRound-Regular'; background:#5fd080; border-radius: 3px;-moz-border-radius: 3px;-webkit-border-radius: 3px; padding:20px 30px; margin-right:5px; float:left;}
-.wrapper .header .bnrPrt a.gtSrtd:hover{ background:#3ac162;}
-.wrapper .header .bnrPrt a.lrnMr:hover { background:#95a1ab;}
-.wrapper .header .bnrPrt a.lrnMr{ color:#fff; font:20px 'Conv_VarelaRound-Regular'; background:#aab3bc; border-radius: 3px;-moz-border-radius: 3px;-webkit-border-radius: 3px; padding:20px 30px; margin-right:5px; float:left;}
-.wrapper .header .bnrPrt a.lrnMr span{ background:url(../images/lrnIcn.png) no-repeat scroll center left; padding-left:20px; }
+.wrapper .bnrPrt{ width:430px;}
+.wrapper .bnrPrt h1{ color:#fff; font:bold 42px 'Conv_VarelaRound-Regular'; line-height:100%; margin-top:115px;}
+.wrapper .bnrPrt p{ font:23px Conv_VarelaRound-Regular; color:#fff; margin:30px 0;}
+.wrapper .bnrPrt a.gtSrtd{ color:#fff; font:20px 'Conv_VarelaRound-Regular'; background:#5fd080; border-radius: 3px;-moz-border-radius: 3px;-webkit-border-radius: 3px; padding:20px 30px; margin-right:5px; float:left;}
+.wrapper .bnrPrt a.gtSrtd:hover{ background:#3ac162;}
+.wrapper .bnrPrt a.lrnMr:hover { background:#95a1ab;}
+.wrapper .bnrPrt a.lrnMr{ color:#fff; font:20px 'Conv_VarelaRound-Regular'; background:#aab3bc; border-radius: 3px;-moz-border-radius: 3px;-webkit-border-radius: 3px; padding:20px 30px; margin-right:5px; float:left;}
+.wrapper .bnrPrt a.lrnMr span{ background:url(../images/lrnIcn.png) no-repeat scroll center left; padding-left:20px; }
 
 /*============================================Header===========================================*/ 
 
@@ -109,7 +109,15 @@ body {padding:0px; margin:0; min-width:1202px; font:16px 'Conv_VarelaRound-Regul
 .wrapper .testiHldr .strBtn .teStry{font:bold 17px 'Conv_VarelaRound-Regular'; color:#5fcf80; background:url(../images/arrw.png) no-repeat scroll right 6px; padding-right:28px;}
 .wrapper .testiHldr .strBtn .teStry:hover{ color:#000;}
 
-.wrapper .campn{width:100%; padding-top:100px; background: url(../images/patrn.jpg) repeat scroll 0 0; border-top:1px solid #e6e9e9; border-bottom:1px solid #e6e9e9;}
+.wrapper .campn{
+	width:100%; 
+	padding-top:100px; 
+	background: url(../images/patrn.jpg) repeat scroll 0 0; 
+	border-top:1px solid #e6e9e9; 
+	border-bottom:1px solid #e6e9e9;
+	min-height:250px;
+}
+
 .wrapper .campn h3{font:40px 'Conv_VarelaRound-Regular'; color:#384047; text-align:center; margin-bottom:5px;}
 .wrapper .campn p{font:16px 'Conv_VarelaRound-Regular'; color:#92a2b2; text-align:center; margin-bottom:30px; margin-left:10%; margin-right:10%;}
 
@@ -1224,8 +1232,17 @@ margin-left:40px;height:36px !important;line-height:36px  !important;margin-top:
 
 /*----------------------------- JOSH UPDATE last section on footer -------------------------------*/
 
-.wholefooter {background-color:#363839;padding:30px 0px 30px 0px;border-top: 12px solid #e9eaee;margin-top:30px;}
-.wholefooter1 {;margin: 0 auto;text-align: center;}
+.wholefooter {
+	background-color:#363839;
+	padding:30px 0px 30px 0px;
+	border-top: 12px solid #e9eaee;
+}
+
+.wholefooter1 { 
+	margin: 0 auto; 
+	text-align: justify;
+}
+
 .footertitle {color:white; font:12px 'Conv_VarelaRound-Regular'; margin-bottom:15px;border:none;width:15%;display:inline-block;text-align: left;padding:10px;vertical-align: top;}
 .footertitle a{color:#8c989e;}
 .footertitle a:hover{color:#63757e;}
@@ -1247,6 +1264,82 @@ margin-left:40px;height:36px !important;line-height:36px  !important;margin-top:
 
 }
 
+.wdarea {
+    color: #cccccc;
+    display: inline-block;
+    margin: 0 2.4% 0 auto;
+    vertical-align: top;
+    width: 23%;
+}
+
+.wholefooter1:after {
+    content: "";
+    display: inline-block;
+    font-size: 0;
+    height: 0;
+    white-space: normal;
+    width: 100%;
+}
+
+.wholefooter1 {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: justify;
+    white-space: normal;
+    width: 100%;
+}
+.wdarea.wdarea4 {
+    float: right;
+    margin-right: 0;
+}
+
+.wdarea h2 {
+    display: block;
+    font-family: arial;
+    font-size: 15px;
+    padding: 0 0 15px;
+    text-transform: uppercase;
+}
+
+.wdarea .textwidget {
+    font-family: "Conv_VarelaRound-Regular";
+    text-align: justify;
+}
+
+.wdarea .menu {
+    margin: 0;
+    padding: 0;
+}
+.wdarea .menu li {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.wdarea .menu li a {
+    display: block;
+    padding: 0 0 5px;
+	color:#cccccc;
+}
+.wdarea .menu li a:hover {
+    color: orangered;
+    text-decoration: underline;
+}
+
+.copytext {
+    color: #c11f1f;
+}
+
+/* navigation menu starts */
+#primary-navigation {
+    display: block;
+}
+#menu-main-menu {
+    float: right;
+}
+/* navigation menu ends */
+
+
 /* updated by K*** ends */
+
 
 
