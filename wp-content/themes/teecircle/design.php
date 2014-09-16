@@ -394,7 +394,7 @@ $_SESSION['reditect_page'] = 'design/';
 					 <ul class="tee_nav">    
 					 <?php 
 					 $colr = 0;
-					 shuffle($authorvalues);
+					$a = (array)$authorvalues;					shuffle($a);
 					 foreach ( $authorvalues as $authorvalue ) {
 					 	//echo $colr;
 					 	if($colr<12){?>

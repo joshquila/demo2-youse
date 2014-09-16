@@ -11,7 +11,8 @@
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
-get_header( 'shop' ); ?>
+/* get_header( 'shop' );  */
+get_header( 'main' ); ?>
 
 	<?php
 		/**
@@ -47,4 +48,4 @@ get_header( 'shop' ); ?>
 		do_action( 'woocommerce_sidebar' );
 	?>
 
-<?php get_footer( 'shop' ); ?>
+<?php get_footer(); ?>
