@@ -1,67 +1,53 @@
-<?php
-/*
-Template Name: Design
-*/
-ob_start();
-session_start();
-$_SESSION['reditect_page'] = 'design/';
-
-?>
+<?php
+/*
+Template Name: Design
+*/
+ob_start();
+session_start();
+$_SESSION['reditect_page'] = 'design/';
+?>
 <input type="hidden" id="userlogintype" value="<?php if(is_user_logged_in()){ echo 'loggedin'; }else{ echo 'log'; }?>" />
-<script>
-	
-		
-	function getAverageRGB() {
-		
-		if(j('#dv_front').css('display')=='block'){
-			chaim = checkunicolofront('dv_front');
-		}
-		if(j('#dv_back').css('display')=='block'){
-			chaim = checkunicoloback('dv_back');
-		}
-		return false;	
+<script>
+	function getAverageRGB() {
+		if(j('#dv_front').css('display')=='block'){
+			chaim = checkunicolofront('dv_front');
+		}
+		if(j('#dv_back').css('display')=='block'){
+			chaim = checkunicoloback('dv_back');
+		}
+		return false;	
 	}
-		
-	function HexToRGB(Hex){
-			var Long = parseInt(Hex.replace(/^#/, ""), 16);
-			return {
-				R: (Long >>> 16) & 0xff,
-				G: (Long >>> 8) & 0xff,
-				B: Long & 0xff
-			};
-		}
-	
-	function componentToHex(c) {
-   	 	var hex = c.toString(16);
-    	return hex.length == 1 ? "0" + hex : hex;
+	function HexToRGB(Hex){
+		var Long = parseInt(Hex.replace(/^#/, ""), 16);
+		return {
+			R: (Long >>> 16) & 0xff,
+			G: (Long >>> 8) & 0xff,
+			B: Long & 0xff
+		};
+	}
+		function componentToHex(c) {
+   	 	var hex = c.toString(16);
+    	return hex.length == 1 ? "0" + hex : hex;
 	}
-
-	function RGBtoHex(r, g, b) {
-	    return "#" + componentToHex(r) + componentToHex(g) + componentToHex(b);
+	function RGBtoHex(r, g, b) {
+	    return "#" + componentToHex(r) + componentToHex(g) + componentToHex(b);
 	}
-	
-	function changeColor(v)
-		{
-			var canvas = document.createElement("canvas");
-			var ctx = canvas.getContext("2d");
-			var originalPixels = null;
-			var currentPixels = null;
-			var img = document.getElementById("bg_imgcan");
-			canvas.width = img.width;
-			canvas.height = img.height;
-			
-			ctx.drawImage(img, 0, 0, img.naturalWidth, img.naturalHeight, 0, 0, img.width, img.height);
-			originalPixels = ctx.getImageData(0, 0, img.width, img.height);
-			currentPixels = ctx.getImageData(0, 0, img.width, img.height);
-			
-			//img.onload = null;
-			if(!originalPixels) return; // Check if image has loaded
-			var newColor = HexToRGB(v);
-			
-			for(var I = 0, L = originalPixels.data.length; I < L; I += 4)
-			{
-				if(currentPixels.data[I + 3] > 0)
-				{
+	function changeColor(v){
+			var canvas = document.createElement("canvas");
+			var ctx = canvas.getContext("2d");
+			var originalPixels = null;
+			var currentPixels = null;
+			var img = document.getElementById("bg_imgcan");
+			canvas.width = img.width;
+			canvas.height = img.height;
+			ctx.drawImage(img, 0, 0, img.naturalWidth, img.naturalHeight, 0, 0, img.width, img.height);
+			originalPixels = ctx.getImageData(0, 0, img.width, img.height);
+			currentPixels = ctx.getImageData(0, 0, img.width, img.height);
+			//img.onload = null;
+			if(!originalPixels) return; // Check if image has loaded
+			var newColor = HexToRGB(v);
+			for(var I = 0, L = originalPixels.data.length; I < L; I += 4){
+				if(currentPixels.data[I + 3] > 0){
 					currentPixels.data[I] = originalPixels.data[I] / 255 * newColor.R;
 					currentPixels.data[I + 1] = originalPixels.data[I + 1] / 255 * newColor.G;
 					currentPixels.data[I + 2] = originalPixels.data[I + 2] / 255 * newColor.B;
@@ -99,8 +85,7 @@ $_SESSION['reditect_page'] = 'design/';
 					currentPixels2.data[I + 1] = originalPixels2.data[I + 1] / 255 * newColor.G;
 					currentPixels2.data[I + 2] = originalPixels2.data[I + 2] / 255 * newColor.B;
 				}
-			}
-			
+			}
 			ctx2.putImageData(currentPixels2, 0, 0);
 			
 			document.getElementById("bg_img1").src = canvas2.toDataURL("image/png");
@@ -112,7 +97,7 @@ $_SESSION['reditect_page'] = 'design/';
 	//print_r($product_categories);
 	?>
  <!--Body start-->
-      <div class="mainBdy row"> 
+		<div class="mainBdy row"> 
         
         <!--Step Bar Sec-->
         <div class="stpBar">
@@ -206,14 +191,12 @@ $_SESSION['reditect_page'] = 'design/';
                 
 				 
 				
-				<table width="75" align="center">
-					<tr>
-						<td align="left" valign="top" width="25"><input type="button" size="4" value="" class="cls_rot_lft"></td>
-						<td align="left" valign="top" width="25"><input type="button" size="4" value="" class="cls_rot_cntr"></td>
-						<td align="left" valign="top" width="25"><input type="button" size="4" value="" class="cls_rot_rit"></td>
-						
-					</tr>
-																	
+				<table width="75" align="center">
+					<tr>
+						<td align="left" valign="top" width="25"><input type="button" size="4" value="" class="cls_rot_lft"></td>
+						<td align="left" valign="top" width="25"><input type="button" size="4" value="" class="cls_rot_cntr"></td>
+						<td align="left" valign="top" width="25"><input type="button" size="4" value="" class="cls_rot_rit"></td>
+					</tr>
 				</table>
 				<div class="outlineval">
 					<div class="chootr">
